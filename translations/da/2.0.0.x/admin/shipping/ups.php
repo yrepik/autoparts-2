@@ -1,0 +1,116 @@
+<?php
+// Heading
+$_['heading_title']                = 'UPS';
+
+// Text
+$_['text_shipping']                = 'Forsendelse';
+$_['text_success']                 = 'Succes: Du har ændret UPS forsendelse!';
+$_['text_edit']                    = 'Rediger UPS Shipping';
+$_['text_regular_daily_pickup']    = 'Regelmæssig daglig afhentning';
+$_['text_daily_pickup']            = 'Daglig afhentning';
+$_['text_customer_counter']        = 'Kunde Counter';
+$_['text_one_time_pickup']         = 'Én gang Pickup';
+$_['text_on_call_air_pickup']      = 'På opfordring luft Pickup';
+$_['text_letter_center']           = 'Brev Center';
+$_['text_air_service_center']      = 'Air Service Center';
+$_['text_suggested_retail_rates']  = 'Vejledende udsalgspris satser (UPS butik)';
+$_['text_package']                 = 'Pakke';
+$_['text_ups_letter']              = 'UPS brev';
+$_['text_ups_tube']                = 'UPS Tube';
+$_['text_ups_pak']                 = 'UPS Pak';
+$_['text_ups_express_box']         = 'UPS Express boks';
+$_['text_ups_25kg_box']            = 'UPS 25kg kasse';
+$_['text_ups_10kg_box']            = 'UPS 10kg kasse';
+$_['text_us']                      = 'Amerikanske oprindelse';
+$_['text_ca']                      = 'Canada oprindelse';
+$_['text_eu']                      = 'EU \'s oprindelse';
+$_['text_pr']                      = 'Puerto Rico oprindelse';
+$_['text_mx']                      = 'Mexico oprindelse';
+$_['text_other']                   = 'Alle andre oprindelse';
+$_['text_test']                    = 'Test';
+$_['text_production']              = 'Produktion';
+$_['text_residential']             = 'Privatkunde';
+$_['text_commercial']              = 'Erhvervskunde';
+$_['text_next_day_air']            = 'UPS Next Day Air';
+$_['text_2nd_day_air']             = 'UPS anden dag luft';
+$_['text_ground']                  = 'UPS Ground';
+$_['text_3_day_select']            = 'UPS tre-dages Vælg';
+$_['text_next_day_air_saver']      = 'UPS Next Day Air Saver';
+$_['text_next_day_air_early_am']   = 'UPS Next Day Air Early A.M.';
+$_['text_2nd_day_air_am']          = 'UPS anden dag Air A.M.';
+$_['text_saver']                   = 'UPS Saver';
+$_['text_worldwide_express']       = 'UPS Worldwide Express';
+$_['text_worldwide_expedited']     = 'UPS Worldwide Expedited';
+$_['text_standard']                = 'UPS Standard';
+$_['text_worldwide_express_plus']  = 'UPS Worldwide Express Plus';
+$_['text_express']                 = 'UPS Express';
+$_['text_expedited']               = 'UPS Expedited';
+$_['text_express_early_am']        = 'UPS Express Early A.M.';
+$_['text_express_plus']            = 'UPS Express Plus';
+$_['text_today_standard']          = 'UPS Today Standard';
+$_['text_today_dedicated_courier'] = 'UPS Today Dedicated Courier';
+$_['text_today_intercity']         = 'UPS Today Intercity';
+$_['text_today_express']           = 'UPS Today Express';
+$_['text_today_express_saver']     = 'UPS Today Express Saver';
+
+// Entry
+$_['entry_key']                    = 'Access Key';
+$_['entry_username']               = 'Brugernavn';
+$_['entry_password']               = 'Adgangskode';
+$_['entry_pickup']                 = 'Pickup metode';
+$_['entry_packaging']              = 'Emballage Type';
+$_['entry_classification']         = 'Kunde klassifikationskode';
+$_['entry_origin']                 = 'Shipping oprindelse kode';
+$_['entry_city']                   = 'Oprindelse by';
+$_['entry_state']                  = 'Oprindelse stat/provins';
+$_['entry_country']                = 'Oprindelsesland';
+$_['entry_postcode']               = 'Oprindelse postnummer';
+$_['entry_test']                   = 'Test-Mode';
+$_['entry_quote_type']             = 'Tilbudstype';
+$_['entry_service']                = 'Services';
+$_['entry_insurance']              = 'Aktivere forsikring';
+$_['entry_display_weight']         = ' Vis leveringvægt';
+$_['entry_weight_class']           = 'Vægtklasse';
+$_['entry_length_class']           = 'Længdeklasse';
+$_['entry_dimension']			   = 'Dimensioner (L x B x H)';
+$_['entry_length']                 = 'Længde';
+$_['entry_height']                 = 'Højde';
+$_['entry_width']                  = 'Bredde';
+$_['entry_height']                 = 'Højde';
+$_['entry_tax_class']              = 'Afgiftsklasse';
+$_['entry_geo_zone']               = 'Geo Zone';
+$_['entry_status']                 = 'Status';
+$_['entry_sort_order']             = 'Sorteringsorden';
+$_['entry_debug']      			   = 'Debug Mode';
+
+// Help
+$_['help_key']                     = 'Angiv XML-satser hurtigtasten UPS har tildelt dig.';
+$_['help_username']                = 'Indtast brugernavnet til din UPS Services konto.';
+$_['help_password']                = 'Indtast adgangskoden til UPS tjenester.';
+$_['help_pickup']                  = 'Hvordan giver du pakker til UPS (kun brugt når oprindelse er os)?';
+$_['help_packaging']               = 'Hvilken slags emballage bruger du?';
+$_['help_classification']          = '01 - Hvis du fakturerer til en UPS konto og har en daglig Fragtmanden om afhentning, 03 - Hvis du ikke har en UPS-konto eller du fakturerer til en UPS-konto men har ikke en daglig afhentning, 04 - Hvis du forsendelse fra en butik (kun brugt når oprindelse er os)';
+$_['help_origin']                  = 'Hvad udgangspunktet bør være brugt (denne indstilling påvirker kun hvad UPS produktnavne er vist til brugeren)';
+$_['help_city']                    = 'Angiv navnet på byens oprindelse.';
+$_['help_state']                   = 'Angiv to-bogstavskode for dit oprindelse stat/provins.';
+$_['help_country']                 = 'Angiv to-bogstavskode for dit oprindelsesland.';
+$_['help_postcode']                = 'Indtast din oprindelse zip/Postnr.';
+$_['help_test']                    = 'Bruge dette modul i Test (ja) eller produktion tilstand (Nej)?';
+$_['help_quote_type']              = 'Tilbud til bolig eller kommerciel levering.';
+$_['help_service']                 = 'Vælg UPS tjenester tilbydes.';
+$_['help_insurance']               = 'Giver mulighed for forsikring med produktets samlede som værdien';
+$_['help_display_weight']          = 'Ønsker du at vise vægten på pakken? (f.eks. Pakkevægt: 2,7674 kg)';
+$_['help_weight_class']            = 'Sæt til kg eller pund.';
+$_['help_length_class']            = 'Indstillet til centimeter eller tommer.';
+$_['help_dimension']			   = 'Dette antages for at være din gennemsnitlige pakning boksens størrelse. Individuelle varedimensioner understøttes ikke på nuværende tidspunkt, så du skal indtaste gennemsnitlige dimensioner som 5 x 5 x 5.';
+$_['help_debug']      			   = 'Gemmer send/modtag data til systemloggen';
+
+// Error
+$_['error_permission']             = 'Advarsel: Du har ikke tilladelse til at redigere UPS (US) forsendelse!';
+$_['error_key']                    = 'Adgang til nøglen kræves!';
+$_['error_username']               = 'Brugernavn påkrævet!';
+$_['error_password']               = 'Adgangskode påkrævet!';
+$_['error_city']                   = 'Oprindelse by!';
+$_['error_state']                  = 'Oprindelse stat/provins kræves!';
+$_['error_country']                = 'Oprindelseslandet kræves!';
+$_['error_dimension']              = 'Gennemsnitlige dimensioner kræves!';

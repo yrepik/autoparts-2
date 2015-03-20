@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_new_subject']          = '%s - commande %s';
+$_['text_new_greeting']         = 'Je vous remercie de votre intérêt pour les produits de %s. Votre commande a été reçue et sera traitée dès que le paiement a été confirmé.';
+$_['text_new_received']         = 'Vous avez reçu une commande.';
+$_['text_new_link']             = 'Pour voir votre commande cliquez sur le lien ci-dessous :';
+$_['text_new_order_detail']     = 'Détails de la commande';
+$_['text_new_instruction']      = 'Consignes';
+$_['text_new_order_id']         = 'ID de la commande:';
+$_['text_new_date_added']       = 'Date d\'ajout:';
+$_['text_new_order_status']     = 'Statut de la commande:';
+$_['text_new_payment_method']   = 'Mode de paiement:';
+$_['text_new_shipping_method']  = 'Mode de livraison:';
+$_['text_new_email']  			= 'Courriel :';
+$_['text_new_telephone']  		= 'Téléphone:';
+$_['text_new_ip']  				= 'Adresse IP:';
+$_['text_new_payment_address']  = 'Adresse de facturation';
+$_['text_new_shipping_address'] = 'Adresse de livraison';
+$_['text_new_products']         = 'Produits';
+$_['text_new_product']          = 'Produit';
+$_['text_new_model']            = 'Modèle';
+$_['text_new_quantity']         = 'Quantité';
+$_['text_new_price']            = 'Prix';
+$_['text_new_order_total']      = 'Total de la commande';
+$_['text_new_total']            = 'Total';
+$_['text_new_download']         = 'Une fois que votre paiement a été confirmé, vous pouvez cliquer sur le lien ci-dessous pour accéder à vos produits téléchargeables :';
+$_['text_new_comment']          = 'Les commentaires de votre commande sont :';
+$_['text_new_footer']           = 'Simplement répondre à ce courriel si vous avez des questions.';
+$_['text_update_subject']       = '%s - ordre mise à jour %s';
+$_['text_update_order']         = 'ID de la commande:';
+$_['text_update_date_added']    = 'Date comm:';
+$_['text_update_order_status']  = 'Votre retour a été mis à jour à l\'état suivant:';
+$_['text_update_comment']       = 'Les commentaires de votre commande sont:';
+$_['text_update_link']          = 'Pour voir votre commande cliquez sur le lien ci-dessous:';
+$_['text_update_footer']        = 'Simplement répondre à ce courriel si vous avez des questions.';

@@ -1,0 +1,116 @@
+<?php
+// Heading
+$_['heading_title']                = 'UPS';
+
+// Text
+$_['text_shipping']                = 'Livrare';
+$_['text_success']                 = 'Succes: Ați modificat transportul UPS!';
+$_['text_edit']                    = 'Editare transport UPS';
+$_['text_regular_daily_pickup']    = 'Ridicare regulară zilnic';
+$_['text_daily_pickup']            = 'Ridicare zilnică';
+$_['text_customer_counter']        = 'Counter Clienți';
+$_['text_one_time_pickup']         = 'Ridică la data';
+$_['text_on_call_air_pickup']      = 'Pe calea aerului';
+$_['text_letter_center']           = 'Scrisoarea centrului';
+$_['text_air_service_center']      = 'Centrul de Service aer';
+$_['text_suggested_retail_rates']  = 'Ratele de vânzare cu amănuntul sugerat (magazin UPS)';
+$_['text_package']                 = 'Pachet';
+$_['text_ups_letter']              = 'Scrisoare UPS';
+$_['text_ups_tube']                = 'Tub UPS';
+$_['text_ups_pak']                 = 'Ambalaj UPS';
+$_['text_ups_express_box']         = 'Casetă UPS Express';
+$_['text_ups_25kg_box']            = 'cutie 25kg UPS';
+$_['text_ups_10kg_box']            = 'Cutie de 10kg UPS';
+$_['text_us']                      = 'Origine SUA';
+$_['text_ca']                      = 'Origine Canada';
+$_['text_eu']                      = 'Uniunea Europeana';
+$_['text_pr']                      = 'Origine Puerto Rico';
+$_['text_mx']                      = 'Origine Mexic';
+$_['text_other']                   = 'Toate originile';
+$_['text_test']                    = 'Proba';
+$_['text_production']              = 'Producţie';
+$_['text_residential']             = 'Rezidential';
+$_['text_commercial']              = 'Commercial';
+$_['text_next_day_air']            = 'UPS Aerian A Doua Zi';
+$_['text_2nd_day_air']             = 'UPS a doua zi Aerian';
+$_['text_ground']                  = 'UPS Terestru';
+$_['text_3_day_select']            = 'Selectaţi UPS trei zile';
+$_['text_next_day_air_saver']      = 'Ziua Urmatoare Aerian  Saver';
+$_['text_next_day_air_early_am']   = 'UPS Aerian A Doua Zi înainte de Prânz.';
+$_['text_2nd_day_air_am']          = 'UPS a doua zi Aerian A.M.';
+$_['text_saver']                   = 'UPS Saver';
+$_['text_worldwide_express']       = 'UPS la nivel mondial Express';
+$_['text_worldwide_expedited']     = 'UPS Mondial Accelerat';
+$_['text_standard']                = 'UPS Standard';
+$_['text_worldwide_express_plus']  = 'UPS Mondial Expres Plus';
+$_['text_express']                 = 'UPS Expres';
+$_['text_expedited']               = 'UPS Accelerat';
+$_['text_express_early_am']        = 'UPS Expres Devreme A.M.';
+$_['text_express_plus']            = 'UPS Expres Plus';
+$_['text_today_standard']          = 'UPS Standard în Aceeași Zi';
+$_['text_today_dedicated_courier'] = 'UPS în Aceeași Zi Curier Dedicat';
+$_['text_today_intercity']         = 'UPS în Aceeași Zi între Orașe';
+$_['text_today_express']           = 'UPS Expres în Aceeași Zi';
+$_['text_today_express_saver']     = 'UPS Expres Economicos în Aceeași Zi';
+
+// Entry
+$_['entry_key']                    = 'Cheie de acces';
+$_['entry_username']               = 'Utilizator';
+$_['entry_password']               = 'Parolă';
+$_['entry_pickup']                 = 'Metoda de ridicare';
+$_['entry_packaging']              = 'Tip ambalaj';
+$_['entry_classification']         = 'Codul de clasificare al clientului';
+$_['entry_origin']                 = 'Codul de origine transport';
+$_['entry_city']                   = 'Originea orasului';
+$_['entry_state']                  = 'Origine stat/provincie';
+$_['entry_country']                = 'Ţara de origine';
+$_['entry_postcode']               = 'Cod poştal/Zip origine';
+$_['entry_test']                   = 'Modul de testare';
+$_['entry_quote_type']             = 'Citat de tip';
+$_['entry_service']                = 'Servicii';
+$_['entry_insurance']              = 'Activează asigurarea';
+$_['entry_display_weight']         = 'Afişează greutatea de livrare';
+$_['entry_weight_class']           = 'Clasa Greutății';
+$_['entry_length_class']           = 'Clasa Lungimii';
+$_['entry_dimension']			   = 'Dimensiuni (L x l x Î)';
+$_['entry_length']                 = 'Lungime';
+$_['entry_height']                 = 'Înălţime';
+$_['entry_width']                  = 'Lăţime';
+$_['entry_height']                 = 'Înălţime';
+$_['entry_tax_class']              = 'Clasă de Taxe';
+$_['entry_geo_zone']               = 'Zona Geografică';
+$_['entry_status']                 = 'Status';
+$_['entry_sort_order']             = 'Ordinea de sortare';
+$_['entry_debug']      			   = 'Modul de depanare';
+
+// Help
+$_['help_key']                     = 'Introduceţi cheia de acces a ratelor XML atribuit de UPS.';
+$_['help_username']                = 'Introduceţi numele de utilizator de cont servicii UPS.';
+$_['help_password']                = 'Introduceţi parola de servicii cont UPS.';
+$_['help_pickup']                  = 'Cum dai pachetele la UPS (doar uzat când originea este SUA)';
+$_['help_packaging']               = 'Ce fel de ambalaje folositi?';
+$_['help_classification']          = '01 - Dacă aveţi facturarea la un cont de UPS şi au zilnic de ridicat UPS, 02 - Dacă nu aveţi un cont UPS sau vă sunt facturile la un cont de UPS dar nu aveţi zilnic de ridicat, 03 - Dacă sunteţi cu transportul de la un punct de desfacere (utilizat numai dacă este de origine americană)';
+$_['help_origin']                  = 'Ce punct de origine ar trebui să fie utilizat (această setare afectează doar ceea de UPS numele  sunt prezentate utilizatorului)';
+$_['help_city']                    = 'Introduceţi numele oraşului de origine.';
+$_['help_state']                   = 'Introduceți codul din două litere pentru originea dvs.  ţară / provincie.';
+$_['help_country']                 = 'Introduceţi codul de două litere pentru ţara de origine.';
+$_['help_postcode']                = 'Introduceți origine zip / CodPoştal.';
+$_['help_test']                    = 'Utilizați acest modul în test (DA) sau în modul de producție (NU)?';
+$_['help_quote_type']              = 'Citat de livrare rezidențiale sau comerciale.';
+$_['help_service']                 = 'Selectaţi serviciile UPS pentru a fi oferite.';
+$_['help_insurance']               = 'Permite asigurarea cu produsul total ca valoare';
+$_['help_display_weight']          = 'Doriţi să afişaţi  greutatea de transport? (ex. livrare greutate: 2.7674 kg)';
+$_['help_weight_class']            = 'Setează la kilograme sau lire sterline.';
+$_['help_length_class']            = 'Setat la centimetri sau inci.';
+$_['help_dimension']			   = 'Acest lucru presupune dimeniunea medie pentru cutia de ambalare. Dimensiunile elementului individual nu sunt acceptate în acest moment, aşa că trebuie să introduceţi dimensiunile medii ca 5x5x5.';
+$_['help_debug']      			   = 'Salvează datele de trimitere/primire în Jurnalul de sistem';
+
+// Error
+$_['error_permission']             = 'Atenție: Nu aveți permisiunea de a modifica transportul UPS (US)!';
+$_['error_key']                    = 'Cheie de acces necesară!';
+$_['error_username']               = 'Numele de utilizator este necesar!';
+$_['error_password']               = 'Parola necesară!';
+$_['error_city']                   = 'Originea orasului!';
+$_['error_state']                  = 'Origine statul/provincia necesare!';
+$_['error_country']                = 'Ţara de origine necesară!';
+$_['error_dimension']              = 'Dimensiuni medii necesare!';

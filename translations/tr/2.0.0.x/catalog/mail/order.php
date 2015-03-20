@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_new_subject']          = '%s - sipariş %s';
+$_['text_new_greeting']         = '%s ürünlerine gösterdiğiniz ilgi için teşekkür ederiz. Siparişiniz alındı ve ödeme onaylandıktan sonra işlenir.';
+$_['text_new_received']         = 'Siparişiniz Alınmıştır.';
+$_['text_new_link']             = 'Siparişiniz görüntülemek için aşağıdaki bağlantıyı tıklatın:';
+$_['text_new_order_detail']     = 'Sipariş Ayrıntıları';
+$_['text_new_instruction']      = 'Açıklamalar';
+$_['text_new_order_id']         = 'Sipariş numarası:';
+$_['text_new_date_added']       = 'Eklenme tarihi:';
+$_['text_new_order_status']     = 'Sipariş durumu:';
+$_['text_new_payment_method']   = 'Ödeme Şekli:';
+$_['text_new_shipping_method']  = 'Sevkiyat yöntemi:';
+$_['text_new_email']  			= 'E-posta:';
+$_['text_new_telephone']  		= 'Telefon:';
+$_['text_new_ip']  				= 'IP adresi:';
+$_['text_new_payment_address']  = 'Ödeme adresi';
+$_['text_new_shipping_address'] = 'Teslimat Adresi';
+$_['text_new_products']         = 'Ürünler';
+$_['text_new_product']          = 'Ürün';
+$_['text_new_model']            = 'Modeli';
+$_['text_new_quantity']         = 'Miktar';
+$_['text_new_price']            = 'Fiyat';
+$_['text_new_order_total']      = 'Sipariş toplamları';
+$_['text_new_total']            = 'Toplam';
+$_['text_new_download']         = 'Ödemeniz onaylandıktan sonra indirilebilir ürünler erişmek için aşağıdaki linki tıklayabilirsiniz:';
+$_['text_new_comment']          = 'Siparişiniz için açıklamadır:';
+$_['text_new_footer']           = 'Herhangi bir sorunuz varsa lütfen bu e-postaya cevap.';
+$_['text_update_subject']       = '%s - sipariş güncelleştirmesi %s';
+$_['text_update_order']         = 'Sipariş numarası:';
+$_['text_update_date_added']    = 'Sipariş tarihi:';
+$_['text_update_order_status']  = 'Sipariş için aşağıdaki durumu güncelleştirildi:';
+$_['text_update_comment']       = 'Siparişiniz için açıklamadır:';
+$_['text_update_link']          = 'Siparişiniz görüntülemek için aşağıdaki bağlantıyı tıklatın:';
+$_['text_update_footer']        = 'Herhangi bir sorunuz varsa lütfen bu e-postaya cevap.';

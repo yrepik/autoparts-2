@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_new_subject']          = '%s - Comanda %s';
+$_['text_new_greeting']         = 'Vă mulțumim pentru interesul dvs. în produsele %s. Comanda dvs. a fost primită și va fi procesată imediat ce plata a fost confirmată.';
+$_['text_new_received']         = 'Ați primit o comandă nouă.';
+$_['text_new_link']             = 'Pentru a vizualiza comanda click pe linkul de mai jos:';
+$_['text_new_order_detail']     = 'Detalii Comandă';
+$_['text_new_instruction']      = 'Instrucțiuni';
+$_['text_new_order_id']         = 'ID Comandă:';
+$_['text_new_date_added']       = 'Data Adăugării:';
+$_['text_new_order_status']     = 'Starea Comenzii:';
+$_['text_new_payment_method']   = 'Metodă de Plată:';
+$_['text_new_shipping_method']  = 'Metodă De Livrare:';
+$_['text_new_email']  			= 'Poştă electronică:';
+$_['text_new_telephone']  		= 'Telefon:';
+$_['text_new_ip']  				= 'Adresă IP:';
+$_['text_new_payment_address']  = 'Adresa de facturare';
+$_['text_new_shipping_address'] = 'Adresa de livrare';
+$_['text_new_products']         = 'Produse';
+$_['text_new_product']          = 'Produs';
+$_['text_new_model']            = 'Model';
+$_['text_new_quantity']         = 'Cantitate';
+$_['text_new_price']            = 'Preț';
+$_['text_new_order_total']      = 'Totalul Comenzii';
+$_['text_new_total']            = 'Total';
+$_['text_new_download']         = 'De-ndată ce plata a fost confirmată, urmați următorul link pentru a vă putea accesa Produsele Descărcabile:';
+$_['text_new_comment']          = 'Comentariile pentru comanda dvs. sunt:';
+$_['text_new_footer']           = 'Vă rugăm să răspundeţi la acest e-mail dacă aveţi întrebări.';
+$_['text_update_subject']       = '%s - Actualizare comandă %s';
+$_['text_update_order']         = 'ID Comandă:';
+$_['text_update_date_added']    = 'Data comenzii:';
+$_['text_update_order_status']  = 'Comanda dvs. a fost actualizată la următoarea stare:';
+$_['text_update_comment']       = 'Comentariile pentru comanda dvs. sunt:';
+$_['text_update_link']          = 'Pentru a vizualiza comanda dvs., urmați linkul de mai jos:';
+$_['text_update_footer']        = 'Vă rugăm să răspundeţi la acest e-mail dacă aveţi întrebări.';

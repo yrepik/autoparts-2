@@ -1,0 +1,173 @@
+<?php
+// Heading
+$_['heading_title']					= 'PayPal Pro iFrame';
+
+// Text
+$_['text_success']					= '成功: 您已修改了PayPal Pro iFrame 帳戶的詳細信息！';
+$_['text_edit']                     = '編輯PayPal Pro iFrame';
+$_['text_pp_pro_iframe']			= '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_authorization']			= '授權模式';
+$_['text_sale']						= '銷售模式';
+$_['text_payment_info']				= '支付信息';
+$_['text_capture_status']			= '捕獲狀態';
+$_['text_amount_auth']				= '授權金額';
+$_['text_amount_captured']			= '捕獲金額';
+$_['text_amount_refunded']			= '退還金額';
+$_['text_capture_amount']			= '捕獲總數';
+$_['text_complete_capture']			= '完成捕獲';
+$_['text_transactions']				= '交易記錄';
+$_['text_complete']					= '完成';
+$_['text_confirm_void']				= '如果取消，您將無法捕獲任何資金';
+$_['text_view']						= '檢視';
+$_['text_refund']					= '退款';
+$_['text_resend']					= '重新發送';
+$_['text_reauthorise']				= '重新授權';
+$_['text_reauthorised']				= '交易已經重新授權';
+$_['text_transaction']				= '交易';
+$_['text_product_lines']			= '生產線';
+$_['text_ebay_txn_id']				= 'eBay 交易 ID';
+$_['text_name']						= '名稱';
+$_['text_qty']						= '數量';
+$_['text_price']					= '價格';
+$_['text_number']					= '號碼';
+$_['text_coupon_id']				= '優惠券 ID';
+$_['text_coupon_amount']			= '優惠券金額';
+$_['text_coupon_currency']			= '優惠券貨幣';
+$_['text_loyalty_disc_amt']			= '會員卡折扣(disc)金額';
+$_['text_loyalty_currency']			= '會員卡貨幣';
+$_['text_options_name']				= '選項名稱';
+$_['text_tax_amt']					= '稅額';
+$_['text_currency_code']			= '貨幣代碼';
+$_['text_amount']					= '金額';
+$_['text_gift_msg']					= '禮品信息';
+$_['text_gift_receipt']				= '禮品收據';
+$_['text_gift_wrap_name']			= '禮品包裝名稱';
+$_['text_gift_wrap_amt']			= '禮品包裝數量';
+$_['text_buyer_email_market']		= '買方市場營銷電郵';
+$_['text_survey_question']			= '調查問題';
+$_['text_survey_chosen']			= '已選調查選擇';
+$_['text_receiver_business']		= '接收人業務';
+$_['text_receiver_email']			= '接收人電郵';
+$_['text_receiver_id']				= '接收人 ID';
+$_['text_buyer_email']				= '買方電郵';
+$_['text_payer_id']					= '付款人 ID';
+$_['text_payer_status']				= '付款人狀態';
+$_['text_country_code']				= '國家代碼';
+$_['text_payer_business']			= '付款人業務';
+$_['text_payer_salute']				= '付款人稱呼';
+$_['text_payer_firstname']			= '付款人名字';
+$_['text_payer_middlename']			= '付款人中間名';
+$_['text_payer_lastname']			= '付款人姓氏';
+$_['text_payer_suffix']				= '付款人後綴';
+$_['text_address_owner']			= '地址持有人';
+$_['text_address_status']			= '地址狀態';
+$_['text_ship_sec_name']			= '第二收貨人名稱';
+$_['text_ship_name']				= '收貨人名稱';
+$_['text_ship_street1']				= '收貨人地址 1';
+$_['text_ship_street2']				= '收貨人地址 2';
+$_['text_ship_city']				= '收貨人城市';
+$_['text_ship_state']				= '收貨人州份';
+$_['text_ship_zip']					= '收貨人郵編';
+$_['text_ship_country']				= '收貨人國家代碼';
+$_['text_ship_phone']				= '收貨人電話號碼';
+$_['text_ship_sec_add1']			= '第二收貨人地址 1';
+$_['text_ship_sec_add2']			= '第二收貨人地址 2';
+$_['text_ship_sec_city']			= '第二收貨人城市';
+$_['text_ship_sec_state']			= '第二收貨人州份';
+$_['text_ship_sec_zip']				= '第二收貨人郵編';
+$_['text_ship_sec_country']			= '第二收貨人國家代碼';
+$_['text_ship_sec_phone']			= '第二收貨人電話號碼';
+$_['text_trans_id']					= '交易編號';
+$_['text_receipt_id']				= '收據 ID';
+$_['text_parent_trans_id']			= '主交易 ID';
+$_['text_trans_type']				= '交易類型';
+$_['text_payment_type']				= '付款類型';
+$_['text_order_time']				= '訂單時間';
+$_['text_fee_amount']				= '費用金額';
+$_['text_settle_amount']			= '結算金額';
+$_['text_tax_amount']				= '稅額';
+$_['text_exchange']					= '匯率';
+$_['text_payment_status']			= '付款狀態';
+$_['text_pending_reason']			= '等待處理原因';
+$_['text_reason_code']				= '原因代碼';
+$_['text_protect_elig']				= '保障資格';
+$_['text_protect_elig_type']		= '保障資格類型';
+$_['text_store_id']					= '商店ID';
+$_['text_terminal_id']				= '終端 ID';
+$_['text_invoice_number']			= '發票編號';
+$_['text_custom']					= '自訂';
+$_['text_note']						= '附註';
+$_['text_sales_tax']				= '銷售稅';
+$_['text_buyer_id']					= '買家 ID';
+$_['text_close_date']				= '結束日期';
+$_['text_multi_item']				= '多項目';
+$_['text_sub_amt']					= '定期金額';
+$_['text_sub_period']				= '定期期限';
+$_['text_redirect']					= '重定向';
+$_['text_iframe']					= 'Iframe';
+$_['help_checkout_method']			= "請使用重定向方法。如果沒有安裝SSL 或如果您在您的支付頁面停止使用Paypal option。";
+$_['help_debug']					= "日誌的其他信息。";
+
+// Column
+$_['column_trans_id']				= '交易 ID';
+$_['column_amount']					= '金額';
+$_['column_type']					= '付款類型';
+$_['column_status']					= '狀態';
+$_['column_pend_reason']			= '等待處理原因';
+$_['column_date_added']				= '創建';
+$_['column_action']					= '操作';
+
+// Tab
+$_['tab_settings']					= '設定';
+$_['tab_order_status']				= '訂單狀態';
+$_['tab_checkout_customisation']	= '自定結帳';
+
+// Entry
+$_['entry_username']				= 'API 用戶名';
+$_['entry_password']				= 'API 密碼';
+$_['entry_signature']				= 'API 簽名';
+$_['entry_test']					= '測試模式';
+$_['entry_total']					= '總計';
+$_['entry_order_status']			= '訂單狀態';
+$_['entry_geo_zone']				= '地理區域';
+$_['entry_status']					= '狀態';
+$_['entry_sort_order']				= '排序次序';
+$_['entry_transaction_method']		= '交易方法:';
+$_['entry_transaction_id']			= '交易 ID';
+$_['entry_full_refund']				= '全額退款';
+$_['entry_amount']					= '金額';
+$_['entry_message']					= '訊息';
+$_['entry_ipn_url']					= 'IPN URL:';
+$_['entry_checkout_method']			= '結帳方法:';
+$_['entry_debug']					= '調試模式:';
+$_['entry_canceled_reversal_status'] = '取消保留狀態:';
+$_['entry_completed_status']		= '完成狀態:';
+$_['entry_denied_status']			= '拒絕狀態:';
+$_['entry_expired_status']			= '過期狀態:';
+$_['entry_failed_status']			= '失敗狀態:';
+$_['entry_pending_status']			= '等待處理狀態:';
+$_['entry_processed_status']		= '處理狀態:';
+$_['entry_refunded_status']			= '退款狀態:';
+$_['entry_reversed_status']			= '保留狀態:';
+$_['entry_voided_status']			= '無效狀態:';
+
+// Help
+$_['help_test']						= '使用在線或測試(sandbox) 處理交易記錄網關服務器嗎？在 Internet explorer 中測試可能會失敗';
+$_['help_total']					= '需要最低結帳金額才能啟動支付模組';
+
+// Button
+$_['button_refund']					= '退款';
+$_['button_void']					= '無效';
+$_['button_capture']				= '捕獲';
+$_['button_reauthorise']			= '重新授權';
+
+// Error
+$_['error_permission']				= '警告: 您沒有權限修改PayPal Website Payment Pro iFrame (UK)!';
+$_['error_sig']						= '必須輸入簽名 ！';
+$_['error_user']					= '必須輸入使用者 ！';
+$_['error_password']				= '必須輸入密碼 ！';
+$_['error_timeout']					= '請求已超時';
+$_['error_transaction_missing']		= '找不到交易記錄';
+$_['error_missing_data']			= '遺失數據';
+$_['error_general']					= '出現錯誤';
+$_['error_capture_amt']				= '輸入要捕獲的金額';
