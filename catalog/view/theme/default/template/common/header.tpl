@@ -86,7 +86,7 @@
   </div>
 </header>
 <?php if ($categories) { ?>
-<div class="container">
+<!-- <div class="container"> -->
   <nav id="menu" class="navbar">
     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
@@ -106,7 +106,7 @@
               </ul>
               <?php } ?>
             </div>
-            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> &nbsp;&nbsp;>>> <!-- <?php echo $category['name']; ?> --> </a> </div>
         </li>
         <?php } else { ?>
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
@@ -115,5 +115,6 @@
       </ul>
     </div>
   </nav>
+<div class="container">
 </div>
 <?php } ?>

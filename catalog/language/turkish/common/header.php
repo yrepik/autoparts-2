@@ -13,4 +13,4 @@ $_['text_download']      = 'Yüklemeler';
 $_['text_logout']        = 'Çıkış Yap';
 $_['text_checkout']      = 'Kullanıma alma';
 $_['text_search']        = 'Arama';
-$_['text_all']           = '';
+$_['text_all']           = 'Tüm kategoriyi gör';

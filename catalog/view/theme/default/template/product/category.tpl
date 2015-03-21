@@ -15,21 +15,21 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <!-- <h2><?php echo $heading_title; ?></h2> -->
-      <?php if ($thumb || $description) { ?>
+      <?php if (true) { ?>
       <div class="row">
         <?php if ($thumb) { ?>
-        <div class="col-sm-2"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-thumbnail" /></div>
+        <!-- div class="col-sm-2"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-thumbnail" /></div> -->
         <?php } ?>
         <?php if ($description) { ?>
-        <div class="col-sm-10"><?php echo $description; ?></div>
+        <!-- <div class="col-sm-10"><?php echo $description; ?></div> -->
         <?php } ?>
       </div>
       <hr>
       <?php } ?>
       <?php if ($categories) { ?>
-      <h3><?php echo $text_refine; ?></h3>
+      <!-- <h3><?php echo $text_refine; ?></h3> -->
       <?php if (count($categories) <= 5) { ?>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-3">
           <ul>
             <?php foreach ($categories as $category) { ?>
@@ -37,9 +37,9 @@
             <?php } ?>
           </ul>
         </div>
-      </div>
+      </div> -->
       <?php } else { ?>
-      <div class="row">
+      <!-- <div class="row">
         <?php foreach (array_chunk($categories, ceil(count($categories) / 4)) as $categories) { ?>
         <div class="col-sm-3">
           <ul>
@@ -49,7 +49,7 @@
           </ul>
         </div>
         <?php } ?>
-      </div>
+      </div> -->
       <?php } ?>
       <?php } ?>
       <?php if ($products) { ?>

@@ -202,7 +202,7 @@ div.required .control-label:before {
 	padding: 10px 40px 10px 40px;
 	min-height: 15px;
 	background-color: transparent;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 }
@@ -214,6 +214,7 @@ div.required .control-label:before {
 }
 #menu .dropdown-inner {
 	display: table;
+	width: 400px;
 }
 #menu .dropdown-inner ul {
 	display: table-cell;
@@ -489,13 +490,13 @@ footer h5 {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #363636;
-	background-image: linear-gradient(to bottom, #444444, #222222);
+	background-image: linear-gradient(to bottom, #e4e4e4, #848484);
 	background-repeat: repeat-x;
-	border-color: #222222 #222222 #000000;
+	width: 80%;
 }
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
 	background-color: #222222;
-	background-image: linear-gradient(to bottom, #333333, #111111);
+	background-image: linear-gradient(to bottom, #6b6b6b, #8e000e);
 }
 /* list group */
 .list-group a {
@@ -713,4 +714,12 @@ h2.price {
 	background-color: #eabbbf;
 	border-color: #d8979d;
 	color: #8e000e;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-collapse.collapse {
+	margin-left: 10%;
 }
