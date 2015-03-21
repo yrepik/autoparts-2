@@ -1,3 +1,3 @@
 <?php
 // Heading
-$_['heading_title'] = 'Aramasını İyileştir';
+$_['heading_title'] = 'Arabama uygun olan parçaları';
