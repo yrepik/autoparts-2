@@ -73,8 +73,8 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #8e000e;
+	background-image: linear-gradient(to bottom, #6b6b6b, #8e000e);
 	background-repeat: repeat-x;
 }
 /* top */
@@ -245,7 +245,7 @@ div.required .control-label:before {
 	text-decoration: none;
 	color: #ffffff;
 	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-image: linear-gradient(to bottom, #6b6b6b, #8e000e);
 	background-repeat: repeat-x;
 }
 #menu #category {

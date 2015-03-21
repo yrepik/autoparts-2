@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_refine']       = 'Aramayı İyileştir';
+$_['text_refine']       = 'Kategoriyi daralt';
 $_['text_product']      = 'Ürünler';
 $_['text_error']        = 'Kategori bulunamadı!';
 $_['text_empty']        = 'Bu kategoride listelenecek herhangi bir ürün bulunamadı.';

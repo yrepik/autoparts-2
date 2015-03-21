@@ -22,7 +22,7 @@ $_['text_loading']          = 'Yükleniyor...';
 // Buttons
 $_['button_address_add']    = 'Adres Ekle';
 $_['button_back']           = 'Geri';
-$_['button_continue']       = 'Devam etmek';
+$_['button_continue']       = 'Devam';
 $_['button_cart']           = 'Sepete Ekle';
 $_['button_cancel']         = 'İptal';
 $_['button_compare']        = 'Bu ürün Karşılaştır';
@@ -33,7 +33,7 @@ $_['button_coupon']         = 'Kupon Uygula';
 $_['button_delete']         = 'Sil';
 $_['button_download']       = 'İndir';
 $_['button_edit']           = 'Düzenle';
-$_['button_filter']         = 'Aramasını İyileştir';
+$_['button_filter']         = 'Bul';
 $_['button_new_address']    = 'Yeni adresi';
 $_['button_change_address'] = 'Adres değişikliği';
 $_['button_reviews']        = 'Yorumlar';

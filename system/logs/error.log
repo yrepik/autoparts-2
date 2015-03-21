@@ -1,0 +1,11 @@
+2015-03-21 8:24:48 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
+2015-03-21 8:24:48 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
+2015-03-21 8:25:29 - PHP Notice:  Undefined index: google_hangouts_code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/controller/module/google_hangouts.php on line 91
+2015-03-21 8:25:29 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
+2015-03-21 8:25:29 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
+2015-03-21 8:26:00 - PHP Notice:  Undefined index: google_hangouts_code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/controller/module/google_hangouts.php on line 91
+2015-03-21 8:26:00 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
+2015-03-21 8:26:00 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
+2015-03-21 8:27:04 - PHP Notice:  Undefined index: google_hangouts_code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/controller/module/google_hangouts.php on line 91
+2015-03-21 8:27:04 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
+2015-03-21 8:27:04 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
