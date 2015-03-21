@@ -193,7 +193,7 @@ div.required .control-label:before {
 	background-color: #000;
 	background-image: linear-gradient(to bottom, #6b6b6b, #8e000e);
 	background-repeat: repeat-x;
-	border-color: #000 #000 #000;
+	border-color: #6b6b6b #6b6b6b #6b6b6b;
 	min-height: 40px;
 }
 #menu .nav > li > a {
