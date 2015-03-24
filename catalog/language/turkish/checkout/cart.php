@@ -9,7 +9,7 @@ $_['text_login']       = 'Dikkat: <a href="%s"> Giriş yap</a> veya fiyatları g
 $_['text_items']       = '%s ürün (ler) - %s';
 $_['text_points']      = 'Ödül puanı: %s';
 $_['text_next']        = 'Ne yapacağım?';
-$_['text_next_choice'] = 'Eğer sen-si olmak kullanmak isterseniz veya mal teslimatı tahmin etmek istiyorum bir indirim kodu veya ödül puan seçin.';
+$_['text_next_choice'] = 'Eğer indirim kuponunuz ya da hediye çekiniz varsa aşağıdaki açılır menülerden giriniz. Sonuncu açılır menüden nakliyat hesabı yaptırabilirsiniz.';
 $_['text_empty']       = 'Alışveriş sepetiniz boş!';
 $_['text_day']         = 'gün';
 $_['text_week']        = 'hafta';

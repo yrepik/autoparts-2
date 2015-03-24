@@ -5,11 +5,11 @@ $_['heading_title']                 = 'Ortaklık programı';
 // Text
 $_['text_account']                  = 'Hesap';
 $_['text_login']                    = 'Giriş yapın';
-$_['text_description']              = '<p>%s ortaklık programı ücretsiz ve üye kazanmak gelir %s veya belirli ürünlerde reklamını kendi web sitesinde bir bağlantıyı veya bağlantıları yerleştirerek sağlar. Herhangi bir satış bu linklere tıklayan müşterilere yapılan ortaklık komisyon kazanırsınız. Standart komisyon oranı, şu anda %s olduğunu</p><p>Daha fazla bilgi için bizim SSS sayfasını ziyaret edin veya bağlı kuruluş kullanım şartları bakın.</p>';
+$_['text_description']              = '<p>%s ortaklık programı ücretsiztir ve üyelerin web sitelerine %s ana sayfasının veya belirli bir ürünün bağlantısını yerleştirerek gelir elde etmelerini sağlar. Bu bağlantılara tıklanarak gerçekleşen satışlardan ortaklık komisyonu kazanırsınız. Standart komisyon oranı, şu anda %s</p><p>Daha fazla bilgi için bizim SSS sayfamızı ziyaret edin veya ortaklık kullanım şartlarına bakın.</p>';
 $_['text_new_affiliate']            = 'Yeni ortaklık';
-$_['text_register_account']         = '<p>Şu anda bağlı değilim.</p><p>\'I yeni bir ortaklık hesabı oluşturmak için devam aşağıda. Unutmayın ki bu herhangi bir şekilde müşteri hesabınıza bağlı değil.</p>';
+$_['text_register_account']         = '<p>Şu anda bir ortaklık üyeliğim yok.</p><p>Yeni bir ortaklık hesabı oluşturmak için Devam\'a tıklayın. Unutmayın ki bu hesabın müşteri hesabınızla herhangi bir bağlantısı yoktur Müşteri hesabınızdan bağımsız bir hesaptır.</p>';
 $_['text_returning_affiliate']      = 'Ortak Girişi';
-$_['text_i_am_returning_affiliate'] = 'Ben geri dönen ortak değilim.';
+$_['text_i_am_returning_affiliate'] = 'Kayıtlı Ortak Hesabım var.';
 $_['text_forgotten']                = 'Şifrenizi mi unuttunuz';
 
 // Entry
