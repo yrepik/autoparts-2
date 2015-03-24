@@ -3,6 +3,6 @@
 $_['heading_title'] = 'Hesaptan Çıkış';
 
 // Text
-$_['text_message']  = 'Hesabınızı oturum açmış <p>. Şimdi bilgisayar bırakmak güvenli.</p><p>Alışveriş sepetinize kaydedilir, her geri hesabınıza oturum içindeki öğeleri-ecek var olmak restored.</p>';
+$_['text_message']  = 'Hesabınızdan çıkış yapmış bulunmaktasınız. Artık bilgisayarınızın başından güvenle kalkabilirsiniz.<p>Alışveriş sepetinizin içeriği kaydedilmiştir. Hesabınıza yeniden giriş yaptığınızda alışveriş sepetinizdeki ürünler geri yüklenecektir.</p>';
 $_['text_account']  = 'Hesap';
 $_['text_logout']   = 'Çıkış Yap';

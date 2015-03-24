@@ -11,6 +11,6 @@ $_['text_order']         = 'Sipariş geçmişi';
 $_['text_transaction']   = 'Hareketleri';
 $_['text_download']      = 'Yüklemeler';
 $_['text_logout']        = 'Çıkış Yap';
-$_['text_checkout']      = 'Kullanıma alma';
+$_['text_checkout']      = 'Ödeme';
 $_['text_search']        = 'Arama';
 $_['text_all']           = 'Tüm kategoriyi gör';
