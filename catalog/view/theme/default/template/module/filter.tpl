@@ -28,8 +28,12 @@ $('#button-filter').on('click', function() {
                 console.log(this.value);
                 filter.push(this.value);
         });
-
-        location = '<?php echo $action; ?>&filter=' + filter.join(',');
+	
+	if (document.URL.indexOf("anasayfa") != -1) {
+		location = '/tum-urunler&filter=' + filter.join(',');
+	} else {
+		location = '<?php echo $action; ?>&filter=' + filter.join(',');
+	}
 });
 //--></script>
  
