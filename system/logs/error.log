@@ -9,3 +9,4 @@
 2015-03-21 8:27:04 - PHP Notice:  Undefined index: google_hangouts_code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/controller/module/google_hangouts.php on line 91
 2015-03-21 8:27:04 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
 2015-03-21 8:27:04 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
+2015-03-24 14:40:29 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />UPDATE oc_currency SET value = '1.00000', date_modified = '2015-03-24 14:40:29' WHERE code = 'TRY' in /home/admin/web/autoparts.mertyildiran.com/public_html/system/library/db/mysqli.php on line 40
