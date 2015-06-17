@@ -21,7 +21,7 @@ define('DIR_LOGS', '/home/admin/web/autoparts.mertyildiran.com/public_html/syste
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'admin_autoparts');
+define('DB_USERNAME', 'admin_auto');
 define('DB_PASSWORD', 'oQdArzT5b2');
 define('DB_DATABASE', 'admin_autoparts');
 define('DB_PREFIX', 'oc_');

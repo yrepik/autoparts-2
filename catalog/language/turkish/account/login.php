@@ -8,8 +8,8 @@ $_['text_login']                   = 'Giriş yapın';
 $_['text_new_customer']            = 'Yeni müşteri';
 $_['text_register']                = 'Hesap kayıt';
 $_['text_register_account']        = 'Bir hesap oluşturarak daha alışveriş yapabilir, daha önce yaptığınız siparişlerin durumlarını takip edebilirsiniz.';
-$_['text_returning_customer']      = 'Kayıtlı Müşteri';
-$_['text_i_am_returning_customer'] = 'Ben Kayıtlı Müşteriyim';
+$_['text_returning_customer']      = 'Kayıtlı Müşteri ya da Mağaza';
+$_['text_i_am_returning_customer'] = 'Mevuct bir hesabınız varsa';
 $_['text_forgotten']               = 'Şifrenizi mi unuttunuz';
 
 // Entry
