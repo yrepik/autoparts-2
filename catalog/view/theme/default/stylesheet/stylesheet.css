@@ -192,7 +192,7 @@ div.required .control-label:before {
 /* menu */
 #menu {
 	background-color: #000;
-	background-image: linear-gradient(to bottom, #6b6b6b, #8e000e);
+	background-image: linear-gradient(to bottom, #023a81, #8e000e, #8e000e);
 	background-repeat: repeat-x;
 	border-color: #6b6b6b #6b6b6b #6b6b6b;
 	min-height: 40px;
@@ -200,7 +200,7 @@ div.required .control-label:before {
 #menu .nav > li > a {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	padding: 10px 100px 10px 100px;
+	padding: 10px 50px 10px 50px;
 	min-height: 15px;
 	background-color: transparent;
 	font-family: 'Lato', sans-serif;
@@ -557,7 +557,7 @@ footer h5 {
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
+	min-height: 100px;
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -722,7 +722,7 @@ h2.price {
 }
 
 .navbar-collapse.collapse {
-	margin-left: calc(50vw - 340px);
+	margin-left: calc(50vw - 575px);
 }
 
 .navbar-nav>li {
