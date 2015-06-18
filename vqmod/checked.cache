@@ -336,3 +336,9 @@ catalog/language/english/information/contact.php
 catalog/language/turkish/information/contact.php
 catalog/model/localisation/location.php
 catalog/view/theme/default/template/information/contact.tpl
+admin/language/turkish/setting/setting.php
+admin/controller/common/filemanager.php
+admin/language/english/common/filemanager.php
+admin/language/turkish/common/filemanager.php
+admin/view/template/common/filemanager.tpl
+catalog/controller/checkout/checkout.php

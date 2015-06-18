@@ -3,92 +3,92 @@
 // **********
 // * Global *
 // **********
-$_['ms_viewinstore'] = 'View in store';
-$_['ms_view'] = 'View';
-$_['ms_view_modify'] = 'View / Modify';
-$_['ms_publish'] = 'Publish';
-$_['ms_unpublish'] = 'Unpublish';
-$_['ms_edit'] = 'Edit';
-$_['ms_clone'] = 'Clone';
-$_['ms_relist'] = 'Relist';
-$_['ms_rate'] = 'Rate';
-$_['ms_download'] = 'Download';
-$_['ms_create_product'] = 'Create product';
-$_['ms_delete'] = 'Delete';
-$_['ms_update'] = 'Update';
-$_['ms_type'] = 'Type';
-$_['ms_amount'] = 'Amount';
-$_['ms_status'] = 'Status';
-$_['ms_date_paid'] = 'Date paid';
-$_['ms_last_message'] = 'Last message';
-$_['ms_description'] = 'Description';
+$_['ms_viewinstore'] = 'Mağazada gör';
+$_['ms_view'] = 'İncele';
+$_['ms_view_modify'] = 'İncele / Düzenle';
+$_['ms_publish'] = 'Yayınla';
+$_['ms_unpublish'] = 'Yayından kaldır';
+$_['ms_edit'] = 'Düzenle';
+$_['ms_clone'] = 'Çoğalt';
+$_['ms_relist'] = 'Yeniden listele';
+$_['ms_rate'] = 'Oran';
+$_['ms_download'] = 'İndir';
+$_['ms_create_product'] = 'Ürün oluştur';
+$_['ms_delete'] = 'Sil';
+$_['ms_update'] = 'Güncelle';
+$_['ms_type'] = 'Tür';
+$_['ms_amount'] = 'Miktar';
+$_['ms_status'] = 'Durum';
+$_['ms_date_paid'] = 'Ödeme tarihi';
+$_['ms_last_message'] = 'Son mesaj';
+$_['ms_description'] = 'Tanım';
 $_['ms_id'] = '#';
-$_['ms_by'] = 'by';
-$_['ms_action'] = 'Action';
-$_['ms_sender'] = 'Sender';
-$_['ms_message'] = 'Message';
-$_['ms_none'] = 'None';
+$_['ms_by'] = 'ile';
+$_['ms_action'] = 'Eylem';
+$_['ms_sender'] = 'Gönderici';
+$_['ms_message'] = 'Mesaj';
+$_['ms_none'] = 'Hiçbiri';
 
 
-$_['ms_date_created'] = 'Date created';
-$_['ms_date'] = 'Date';
+$_['ms_date_created'] = 'Oluşturulduğu tarih';
+$_['ms_date'] = 'Tarih';
 
-$_['ms_button_submit'] = 'Submit';
-$_['ms_button_add_special'] = 'Define a new special price';
-$_['ms_button_add_discount'] = 'Define a new quantity discount';
-$_['ms_button_submit_request'] = 'Submit request';
+$_['ms_button_submit'] = 'Gönder';
+$_['ms_button_add_special'] = 'Yeni bir özel fiyat tanımla';
+$_['ms_button_add_discount'] = 'Yeni bir miktara göre indirim tanımla';
+$_['ms_button_submit_request'] = 'İsteği gönder';
 $_['ms_button_save'] = 'Kaydet';
-$_['ms_button_cancel'] = 'Cancel';
-$_['ms_button_select_predefined_avatar'] = 'Select Pre-defined avatar';
+$_['ms_button_cancel'] = 'İptal';
+$_['ms_button_select_predefined_avatar'] = 'Önceden tanımlanmış bir profil resimi seç';
 
 $_['ms_button_select_image'] = 'Resim seçiniz';
-$_['ms_button_select_images'] = 'Select images';
-$_['ms_button_select_files'] = 'Select files';
+$_['ms_button_select_images'] = 'Resimleri seçiniz';
+$_['ms_button_select_files'] = 'Dosyaları seçiniz';
 
-$_['ms_transaction_order_created'] = 'Order created';
-$_['ms_transaction_order'] = 'Sale: Order Id #%s';
-$_['ms_transaction_sale'] = 'Sale: %s (-%s commission)';
-$_['ms_transaction_refund'] = 'Refund: %s';
-$_['ms_transaction_listing'] = 'Product listing: %s (%s)';
-$_['ms_transaction_signup']      = 'Signup fee at %s';
-$_['ms_request_submitted'] = 'Your request is submitted';
+$_['ms_transaction_order_created'] = 'Sipariş oluşturuldu';
+$_['ms_transaction_order'] = 'Satış: Sipariş Numarası #%s';
+$_['ms_transaction_sale'] = 'Satış: %s (-%s komisyon)';
+$_['ms_transaction_refund'] = 'Para iadesi: %s';
+$_['ms_transaction_listing'] = 'Ürün listeleme: %s (%s)';
+$_['ms_transaction_signup']      = 'Kayıt ücreti at %s';
+$_['ms_request_submitted'] = 'Talebiniz gönderilmiştir';
 
-$_['ms_totals_line'] = 'Curnently %s sellers and %s products for sale!';
+$_['ms_totals_line'] = 'Şu anda %s Mağaza ve %s ürün satıştadır!';
 
-$_['ms_text_welcome'] = '<a href="%s">Login</a> | <a href="%s">Create an account</a> | <a href="%s">Create a seller account</a>.';
-$_['ms_button_register_seller'] = 'Register as a seller';
-$_['ms_register_seller_account'] = 'Register a seller account';
+$_['ms_text_welcome'] = '<a href="%s">Giriş</a> | <a href="%s">Hesap oluştur</a> | <a href="%s">Mağaza hesabı oluştur</a>.';
+$_['ms_button_register_seller'] = 'Mağaza hesabı olarak kayıt ol';
+$_['ms_register_seller_account'] = 'Mağaza hesabı kaydet';
 
 // Mails
 
 // Seller
-$_['ms_mail_greeting'] = "Hello %s,\n\n";
-$_['ms_mail_greeting_no_name'] = "Hello,\n\n";
-$_['ms_mail_ending'] = "\n\nRegards,\n%s";
-$_['ms_mail_message'] = "\n\nMessage:\n%s";
+$_['ms_mail_greeting'] = "Merhaba %s,\n\n";
+$_['ms_mail_greeting_no_name'] = "Merhaba,\n\n";
+$_['ms_mail_ending'] = "\n\nİyi Dileklerimizle,\n%s";
+$_['ms_mail_message'] = "\n\nMesaj:\n%s";
 
-$_['ms_mail_subject_seller_account_created'] = 'Seller account created';
+$_['ms_mail_subject_seller_account_created'] = 'Mağaza hesabı oluşturuldu';
 $_['ms_mail_seller_account_created'] = <<<EOT
 Your seller account at %s has been created!
 
 You can now start adding your products.
 EOT;
 
-$_['ms_mail_subject_seller_account_awaiting_moderation'] = 'Seller account awaiting moderation';
+$_['ms_mail_subject_seller_account_awaiting_moderation'] = 'Mağaza hesabınız düzenlenmeyi bekliyor';
 $_['ms_mail_seller_account_awaiting_moderation'] = <<<EOT
 Your seller account at %s has been created and is now awaiting moderation.
 
 You will receive an email as soon as it is approved.
 EOT;
 
-$_['ms_mail_subject_product_awaiting_moderation'] = 'Product awaiting moderation';
+$_['ms_mail_subject_product_awaiting_moderation'] = 'Ürün düzenlenmeyi bekliyor';
 $_['ms_mail_product_awaiting_moderation'] = <<<EOT
 Your product %s at %s is awaiting moderation.
 
 You will receive an email as soon as it is processed.
 EOT;
 
-$_['ms_mail_subject_product_purchased'] = 'New order';
+$_['ms_mail_subject_product_purchased'] = 'Yeni sipariş';
 $_['ms_mail_product_purchased'] = <<<EOT
 Your product(s) have been purchased from %s.
 
@@ -109,7 +109,7 @@ Products:
 Total: %s
 EOT;
 
-$_['ms_mail_subject_seller_contact'] = 'New customer message';
+$_['ms_mail_subject_seller_contact'] = 'Yeni müşteri mesajı';
 $_['ms_mail_seller_contact'] = <<<EOT
 You have received a new customer message!
 
@@ -147,19 +147,19 @@ Delivery address:
 %s
 EOT;
 
-$_['ms_mail_product_purchased_comment'] = 'Comment: %s';
+$_['ms_mail_product_purchased_comment'] = 'Yorum: %s';
 
-$_['ms_mail_subject_withdraw_request_submitted'] = 'Payout request submitted';
+$_['ms_mail_subject_withdraw_request_submitted'] = 'Ödeme talebi gönderildi';
 $_['ms_mail_withdraw_request_submitted'] = <<<EOT
 We have received your payout request. You will receive your earnings as soon as it is processed.
 EOT;
 
-$_['ms_mail_subject_withdraw_request_completed'] = 'Payout completed';
+$_['ms_mail_subject_withdraw_request_completed'] = 'Ödeme tamamlandı';
 $_['ms_mail_withdraw_request_completed'] = <<<EOT
 Your payout request has been processed. You should now receive your earnings.
 EOT;
 
-$_['ms_mail_subject_withdraw_request_declined'] = 'Payout request declined';
+$_['ms_mail_subject_withdraw_request_declined'] = 'Ödeme talebi reddedildi';
 $_['ms_mail_withdraw_request_declined'] = <<<EOT
 Your payout request has been declined. Your funds have been returned to your balance at %s.
 EOT;
