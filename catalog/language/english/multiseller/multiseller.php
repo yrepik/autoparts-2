@@ -351,64 +351,68 @@ $_['ms_account_product_message_reviewer'] = 'Message to the reviewer';
 $_['ms_account_product_message'] = 'Message';
 $_['ms_account_product_message_note'] = 'Your message to the reviewer';
 //Data Tab
-$_['ms_account_product_tab_data'] = 'Data';
+//AŞAĞIYI ALIYORUMX 
+$_['ms_account_product_tab_data'] = 'Veri';
 $_['ms_account_product_model'] = 'Model';
-$_['ms_account_product_sku'] = 'SKU';
-$_['ms_account_product_sku_note'] = 'Stock Keeping Unit';
-$_['ms_account_product_upc']  = 'UPC';
-$_['ms_account_product_upc_note'] = 'Universal Product Code';
+$_['ms_account_product_sku'] = 'SBB';
+$_['ms_account_product_sku_note'] = 'Stok Bulundurma Birimi';
+$_['ms_account_product_upc']  = 'EÜK';
+$_['ms_account_product_upc_note'] = 'Evrensel Ürün Kodu';
 $_['ms_account_product_ean'] = 'EAN';
 $_['ms_account_product_ean_note'] = 'European Article Number';
+//avrupa madde numarası ? idk
 $_['ms_account_product_jan'] = 'JAN';
 $_['ms_account_product_jan_note'] = 'Japanese Article Number';
-$_['ms_account_product_isbn'] = 'ISBN';
-$_['ms_account_product_isbn_note'] = 'International Standard Book Number';
-$_['ms_account_product_mpn'] = 'MPN';
-$_['ms_account_product_mpn_note'] = 'Manufacturer Part Number';
-$_['ms_account_product_manufacturer'] = 'Manufacturer';
-$_['ms_account_product_manufacturer_note'] = '(Autocomplete)';
+$_['ms_account_product_isbn'] = 'USKN';
+$_['ms_account_product_isbn_note'] = 'Uluslararası Standart Kitap Numarası';
+$_['ms_account_product_mpn'] = 'İPN';
+$_['ms_account_product_mpn_note'] = 'İmalatçı Parça Numarası';
+$_['ms_account_product_manufacturer'] = 'İmalatçı';
+$_['ms_account_product_manufacturer_note'] = '(Otomatik Tamamlama)';
 $_['ms_account_product_tax_class'] = 'Tax Class';
 $_['ms_account_product_date_available'] = 'Date Available';
-$_['ms_account_product_stock_status'] = 'Out Of Stock Status';
-$_['ms_account_product_stock_status_note'] = 'Status shown when a product is out of stock';
+$_['ms_account_product_stock_status'] = 'Stokta olmama durumu';
+$_['ms_account_product_stock_status_note'] = 'Ürün stokta mevcut değilken gösterilecek durum bilgisi';
 $_['ms_account_product_subtract'] = 'Subtract Stock';
 
 // Options
-$_['ms_account_product_tab_options'] = 'Options';
-$_['ms_options_add'] = '+ Add option';
-$_['ms_options_add_value'] = '+ Add value';
+$_['ms_account_product_tab_options'] = 'Seçenekler';
+$_['ms_options_add'] = '+ Seçenek ekle';
+$_['ms_options_add_value'] = '+ Değer ekle';
+
 $_['ms_options_required'] = 'Make option required';
 $_['ms_options_price_prefix'] = 'Change price prefix';
-$_['ms_options_price'] = 'Price...';
-$_['ms_options_quantity'] = 'Quantity...';
+
+$_['ms_options_price'] = 'Fiyat...';
+$_['ms_options_quantity'] = 'Adet...';
 
 
-$_['ms_account_product_manufacturer'] = 'Manufacturer';
-$_['ms_account_product_manufacturer_note'] = '(Autocomplete)';
+$_['ms_account_product_manufacturer'] = 'İmalatçı';
+$_['ms_account_product_manufacturer_note'] = '(Otomatik Tamamlama)';
 $_['ms_account_product_tax_class'] = 'Tax Class';
 $_['ms_account_product_date_available'] = 'Date Available';
-$_['ms_account_product_stock_status'] = 'Out Of Stock Status';
-$_['ms_account_product_stock_status_note'] = 'Status shown when a product is out of stock';
+$_['ms_account_product_stock_status'] = 'Stokta olmama durumu';
+$_['ms_account_product_stock_status_note'] = 'Ürün stokta mevcut değilken gösterilecek durum bilgisi';
 $_['ms_account_product_subtract'] = 'Subtract Stock';
 
-$_['ms_account_product_priority'] = 'Priority';
-$_['ms_account_product_date_start'] = 'Start date';
-$_['ms_account_product_date_end'] = 'End date';
-$_['ms_account_product_sandbox'] = 'Warning: The payment gateway is in \'Sandbox Mode\'. Your account will not be charged.';
+$_['ms_account_product_priority'] = 'Öncelik';
+$_['ms_account_product_date_start'] = 'Başlangıç tarihi';
+$_['ms_account_product_date_end'] = 'Bitiş tarihi';
+$_['ms_account_product_sandbox'] = 'Uyarı: The payment gateway is in \'Sandbox Mode\'. Your account will not be charged.';
 
 
 
 // Account - Edit product
-$_['ms_account_editproduct_heading'] = 'Edit Product';
-$_['ms_account_editproduct_breadcrumbs'] = 'Edit Product';
+$_['ms_account_editproduct_heading'] = 'Ürünü değiştir';
+$_['ms_account_editproduct_breadcrumbs'] = 'Ürünü değiştir';
 
 // Account - Clone product
-$_['ms_account_cloneproduct_heading'] = 'Clone Product';
-$_['ms_account_cloneproduct_breadcrumbs'] = 'Clone Product';
+$_['ms_account_cloneproduct_heading'] = 'Ürünü klonla';
+$_['ms_account_cloneproduct_breadcrumbs'] = 'Ürünü klonla';
 
 // Account - Relist product
-$_['ms_account_relist_product_heading'] = 'Relist Product';
-$_['ms_account_relist_product_breadcrumbs'] = 'Relist Product';
+$_['ms_account_relist_product_heading'] = 'Ürünü tekrar listele';
+$_['ms_account_relist_product_breadcrumbs'] = 'Ürünü tekrar listele';
 
 // Account - Seller
 $_['ms_account_sellerinfo_heading'] = 'Mağaza Profili';
@@ -432,19 +436,21 @@ $_['ms_account_sellerinfo_banner'] = 'Afiş';
 $_['ms_account_sellerinfo_banner_note'] = 'Profil sayfanızda gösterilecek olan afişi yükleyiniz';
 $_['ms_account_sellerinfo_paypal'] = 'Paypal';
 $_['ms_account_sellerinfo_paypal_note'] = 'PayPal hesabınızın bağlı olduğu e-posta adresini giriniz';
-$_['ms_account_sellerinfo_reviewer_message'] = 'Message to the reviewer';
-$_['ms_account_sellerinfo_reviewer_message_note'] = 'Your message to the reviewer';
-$_['ms_account_sellerinfo_terms'] = 'Accept terms';
-$_['ms_account_sellerinfo_terms_note'] = 'I have read and agree to the <a class="agree" href="%s" alt="%s"><b>%s</b></a>';
-$_['ms_account_sellerinfo_fee_flat'] = 'There is a signup fee of <span>%s</span> to become a seller at %s.';
-$_['ms_account_sellerinfo_fee_balance'] = 'This amount will be deducted from your initial balance.';
-$_['ms_account_sellerinfo_fee_paypal'] = 'You will be redirected to the PayPal payment page after form submission.';
-$_['ms_account_sellerinfo_signup_itemname'] = 'Seller account registration at %s';
+$_['ms_account_sellerinfo_reviewer_message'] = 'Kullanıcılar için measaj';
+$_['ms_account_sellerinfo_reviewer_message_note'] = 'Kullanıcılara mesajınız';
+$_['ms_account_sellerinfo_terms'] = 'Şartları kabul et';
+$_['ms_account_sellerinfo_terms_note'] = 'Şunları okudum ve kabul ediyorum <a class="agree" href="%s" alt="%s"><b>%s</b></a>';
+$_['ms_account_sellerinfo_fee_flat'] = '%s nezdinde satıcı olmak için <span>%s</span> kadar kayıt ücreti ödemeniz gerekiyor.';
+//$_['ms_account_sellerinfo_fee_flat'] = 'There is a signup fee of <span>%s</span> to become a seller at %s.';
+//burda %slerin yeri değişmiş oldu da sakatlık çıkıyo mu böyle olunca
+$_['ms_account_sellerinfo_fee_balance'] = 'Şu miktar şu anki bakiyenizden düşülecek.';
+$_['ms_account_sellerinfo_fee_paypal'] = 'Formu yolladıktan sonra PayPal sayfasına yönlendirileceksiniz.';
+$_['ms_account_sellerinfo_signup_itemname'] = '%s nezdinde satıcı hesabı kaydı';
 $_['ms_account_sellerinfo_saved'] = 'Mağaza hesabı bilgileri kaydedildi.';
 
 $_['ms_account_status'] = 'Mağaza hesabı durumu: ';
-$_['ms_account_status_tobeapproved'] = '<br />You will be able to use your account as soon as it is approved by the store owner.';
-$_['ms_account_status_please_fill_in'] = '<br />Please complete the following form to create a seller account.';
+$_['ms_account_status_tobeapproved'] = '<br /> Mağaza sahibi onayladıktan hemen sonra hesabınızı kullanabileceksiniz.';
+$_['ms_account_status_please_fill_in'] = '<br />Satıcı hesabı oluşturmak için lütfen aşağıdaki formu doldurun.';
 
 $_['ms_seller_status_' . MsSeller::STATUS_ACTIVE] = 'Aktif';
 $_['ms_seller_status_' . MsSeller::STATUS_INACTIVE] = 'Pasif';
@@ -454,123 +460,127 @@ $_['ms_seller_status_' . MsSeller::STATUS_DELETED] = 'Silinmiş';
 $_['ms_seller_status_' . MsSeller::STATUS_UNPAID] = 'Ödenmemiş kayıt ücreti';
 
 // Account - Products
-$_['ms_account_products_heading'] = 'Your Products';
-$_['ms_account_products_breadcrumbs'] = 'Your Products';
-$_['ms_account_products_image'] = 'Image';
-$_['ms_account_products_product'] = 'Product';
-$_['ms_account_products_sales'] = 'Sales';
-$_['ms_account_products_earnings'] = 'Earnings';
-$_['ms_account_products_status'] = 'Status';
-$_['ms_account_products_date'] = 'Date added';
+$_['ms_account_products_heading'] = 'Ürünleriniz';
+$_['ms_account_products_breadcrumbs'] = 'Ürünleriniz';
+$_['ms_account_products_image'] = 'Resim';
+$_['ms_account_products_product'] = 'Ürün';
+$_['ms_account_products_sales'] = 'Satışlar';
+$_['ms_account_products_earnings'] = 'Kazançlar';
+$_['ms_account_products_status'] = 'Durum';
+$_['ms_account_products_date'] = 'Tarih eklendi';
+
 $_['ms_account_products_listing_until'] = 'Listing until';
-$_['ms_account_products_action'] = 'Action';
-$_['ms_account_products_noproducts'] = 'You don\'t have any products yet!';
-$_['ms_account_products_confirmdelete'] = 'Are you sure you want to delete your product?';
 
-$_['ms_not_defined'] = 'Not defined';
+$_['ms_account_products_action'] = 'Eylem';
+$_['ms_account_products_noproducts'] = 'Henüz hiç ürününüz yok!';
+$_['ms_account_products_confirmdelete'] = 'Ürününüzü silmek istediğinize emin misiniz?';
 
-$_['ms_product_status_' . MsProduct::STATUS_ACTIVE] = 'Active';
-$_['ms_product_status_' . MsProduct::STATUS_INACTIVE] = 'Inactive';
-$_['ms_product_status_' . MsProduct::STATUS_DISABLED] = 'Disabled';
-$_['ms_product_status_' . MsProduct::STATUS_DELETED] = 'Deleted';
-$_['ms_product_status_' . MsProduct::STATUS_UNPAID] = 'Unpaid listing fee';
+$_['ms_not_defined'] = 'Tanımlanmamış';
+
+$_['ms_product_status_' . MsProduct::STATUS_ACTIVE] = 'Aktif';
+$_['ms_product_status_' . MsProduct::STATUS_INACTIVE] = 'Pasif';
+$_['ms_product_status_' . MsProduct::STATUS_DISABLED] = 'Hizmet dışı';
+$_['ms_product_status_' . MsProduct::STATUS_DELETED] = 'Silinmiş';
+$_['ms_product_status_' . MsProduct::STATUS_UNPAID] = 'Ödenmemiş ilan ücreti';
 
 // Account - Conversations and Messages
-$_['ms_account_conversations'] = 'Conversations';
-$_['ms_account_messages'] = 'Messages';
+$_['ms_account_conversations'] = 'Konuşmalar';
+$_['ms_account_messages'] = 'Mesajlar';
 
-$_['ms_account_conversations_heading'] = 'Your Conversations';
-$_['ms_account_conversations_breadcrumbs'] = 'Your Conversations';
+$_['ms_account_conversations_heading'] = 'Konuşmalarınız';
+$_['ms_account_conversations_breadcrumbs'] = 'Konuşmalarınız';
 
-$_['ms_account_conversations_status'] = 'Status';
+$_['ms_account_conversations_status'] = 'Durum';
 $_['ms_account_conversations_date_created'] = 'Date created';
-$_['ms_account_conversations_with'] = 'Conversation with';
-$_['ms_account_conversations_title'] = 'Title';
+$_['ms_account_conversations_with'] = 'Şununla sohbet';
+$_['ms_account_conversations_title'] = 'Başlık';
 
-$_['ms_conversation_title_product'] = 'Inquiry about product: %s';
-$_['ms_conversation_title'] = 'Inquiry from %s';
+$_['ms_conversation_title_product'] = '%s ürünüyle ilgili sorgu';
+$_['ms_conversation_title'] = '%s tarafından sorgu';
 
-$_['ms_account_conversations_read'] = 'Read';
-$_['ms_account_conversations_unread'] = 'Unread';
+$_['ms_account_conversations_read'] = 'Okunmamış';
+$_['ms_account_conversations_unread'] = 'Okunmuş';
 
-$_['ms_account_messages_heading'] = 'Messages';
-$_['ms_account_messages_breadcrumbs'] = 'Messages';
+$_['ms_account_messages_heading'] = 'Mesajlar';
+$_['ms_account_messages_breadcrumbs'] = 'Mesajlar';
 
-$_['ms_message_text'] = 'Your message';
-$_['ms_post_message'] = 'Send message';
+$_['ms_message_text'] = 'Mesajınız';
+$_['ms_post_message'] = 'Mesajı yolla';
 
-$_['ms_customer_does_not_exist'] = 'Customer account deleted';
-$_['ms_error_empty_message'] = 'Message cannot be left empty';
+$_['ms_customer_does_not_exist'] = 'Müşteri hesabı silindi.';
+$_['ms_error_empty_message'] = 'Mesajı boş bırakamazsınız';
 
-$_['ms_mail_subject_private_message'] = 'New private message received';
+$_['ms_mail_subject_private_message'] = 'Yeni bir özel mesaj alındı';
 $_['ms_mail_private_message'] = <<<EOT
-You have received a new private message from %s!
+%s kişisi tarafından yeni bir özel mesajınız var!
 
 %s
 
 %s
 
-You can reply in the messaging area in your account.
+Hesabınızdaki mesaj bölümünden cevap verebilirsiniz.
 EOT;
 
-$_['ms_mail_subject_order_updated'] = 'Your order #%s has been updated by %s';
+$_['ms_mail_subject_order_updated'] = 'Siparişiniz #%s %s tarafından güncellendi';
 $_['ms_mail_order_updated'] = <<<EOT
+
+
 Your order at %s has been updated by %s:
 
-Order#: %s
+Sipariş#: %s
 
-Products:
+Ürünler:
 %s
 
-Status: %s
+Durum: %s
 
-Comment:
+Yorumlar:
 %s
 
 EOT;
 
-$_['ms_mail_subject_seller_vote'] = 'Vote for the seller';
-$_['ms_mail_seller_vote_message'] = 'Vote for the seller';
+$_['ms_mail_subject_seller_vote'] = 'Şu satıcıyı oyla';
+$_['ms_mail_seller_vote_message'] = 'Şu satıcıyı oyla';
 
 // Account - Transactions
-$_['ms_account_transactions_heading'] = 'Your Finances';
-$_['ms_account_transactions_breadcrumbs'] = 'Your Finances';
-$_['ms_account_transactions_balance'] = 'Your current balance:';
-$_['ms_account_transactions_earnings'] = 'Your earnings to date:';
-$_['ms_account_transactions_records'] = 'Balance records';
-$_['ms_account_transactions_description'] = 'Description';
-$_['ms_account_transactions_amount'] = 'Amount';
-$_['ms_account_transactions_notransactions'] = 'You don\'t have any transactions yet!';
+$_['ms_account_transactions_heading'] = 'Mali durumunuz';
+$_['ms_account_transactions_breadcrumbs'] = 'Mali durumunuz';
+$_['ms_account_transactions_balance'] = 'Şu anki bakiyeniz:';
+$_['ms_account_transactions_earnings'] = 'Şu tarihe kadar olan kazançlar:';
+$_['ms_account_transactions_records'] = 'Bakiye kayıtları';
+$_['ms_account_transactions_description'] = 'Açıklama';
+$_['ms_account_transactions_amount'] = 'Miktar';
+$_['ms_account_transactions_notransactions'] = 'Henüz bir işleminiz yok!';
 
 // Payments
-$_['ms_payment_payments'] = 'Payments';
-$_['ms_payment_order'] = 'order #%s';
-$_['ms_payment_type_' . MsPayment::TYPE_SIGNUP] = 'Signup fee';
-$_['ms_payment_type_' . MsPayment::TYPE_LISTING] = 'Listing fee';
-$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT] = 'Manual payout';
-$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT_REQUEST] = 'Payout request';
-$_['ms_payment_type_' . MsPayment::TYPE_RECURRING] = 'Recurring payment';
-$_['ms_payment_type_' . MsPayment::TYPE_SALE] = 'Sale';
+$_['ms_payment_payments'] = 'Ödemeler';
+$_['ms_payment_order'] = 'Sipariş #%s';
+$_['ms_payment_type_' . MsPayment::TYPE_SIGNUP] = 'Kayıt ücreti';
+$_['ms_payment_type_' . MsPayment::TYPE_LISTING] = 'İlan ücreti';
+$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT] = 'Elle ödeme';
+$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT_REQUEST] = 'Ödeme talebi';
+$_['ms_payment_type_' . MsPayment::TYPE_RECURRING] = 'Tekrarlayan ödeme';
+$_['ms_payment_type_' . MsPayment::TYPE_SALE] = 'Satış';
 
-$_['ms_payment_status_' . MsPayment::STATUS_UNPAID] = 'Unpaid';
-$_['ms_payment_status_' . MsPayment::STATUS_PAID] = 'Paid';
+$_['ms_payment_status_' . MsPayment::STATUS_UNPAID] = 'Ödenmemiş';
+$_['ms_payment_status_' . MsPayment::STATUS_PAID] = 'Ödenmiş';
 
 // Account - Orders
-$_['ms_account_orders_heading'] = 'Your Orders';
-$_['ms_account_orders_breadcrumbs'] = 'Your Orders';
-$_['ms_account_orders_id'] = 'Order #';
-$_['ms_account_orders_customer'] = 'Customer';
-$_['ms_account_orders_products'] = 'Products';
-$_['ms_account_orders_history'] = 'History';
-$_['ms_account_orders_addresses'] = 'Addresses';
-$_['ms_account_orders_total'] = 'Total amount';
-$_['ms_account_orders_view'] = 'View order';
-$_['ms_account_orders_noorders'] = 'You don\'t have any orders yet!';
-$_['ms_account_orders_nohistory'] = 'There is no history for this order yet!';
-$_['ms_account_orders_change_status']    = 'Change order status';
-$_['ms_account_orders_add_comment']    = 'Add order comment...';
+$_['ms_account_orders_heading'] = 'Siparişleriniz';
+$_['ms_account_orders_breadcrumbs'] = 'Siparişleriniz';
+$_['ms_account_orders_id'] = 'Sipariş #';
+$_['ms_account_orders_customer'] = 'Müşteri';
+$_['ms_account_orders_products'] = 'Ürünler';
+$_['ms_account_orders_history'] = 'Tarih';
+$_['ms_account_orders_addresses'] = 'Adresler';
+$_['ms_account_orders_total'] = 'Toplam miktar';
+$_['ms_account_orders_view'] = 'Sipariş göster';
+$_['ms_account_orders_noorders'] = 'Henüz hiç siparişiniz yok!';
+$_['ms_account_orders_nohistory'] = 'Bu sipariş için henüz bir kayıt mevcut değil!';
+$_['ms_account_orders_change_status']    = 'Siparişin durumunu değiştir...';
+$_['ms_account_orders_add_comment']    = 'Siparişle ilgili yorum ekle...';
 
-$_['ms_account_order_information'] = 'Order Information';
+$_['ms_account_order_information'] = 'Sipariş bilgileri';
 
 // Account - Dashboard
 $_['ms_account_dashboard_heading'] = 'Mağaza Paneli';
@@ -596,106 +606,114 @@ $_['ms_account_dashboard_nav_balance'] = 'Mali kayıtlarını gör';
 $_['ms_account_dashboard_nav_payout'] = 'Ödeme talep et';
 
 // Account - Request withdrawal
-$_['ms_account_withdraw_heading'] = 'Request Payout';
-$_['ms_account_withdraw_breadcrumbs'] = 'Request Payout';
-$_['ms_account_withdraw_balance'] = 'Your current balance:';
-$_['ms_account_withdraw_balance_available'] = 'Available for withdrawal:';
-$_['ms_account_withdraw_minimum'] = 'Minimum payout amount:';
+$_['ms_account_withdraw_heading'] = 'Ödeme talep et';
+$_['ms_account_withdraw_breadcrumbs'] = 'Ödeme talep et';
+$_['ms_account_withdraw_balance'] = 'Şu anki bakiye:';
+$_['ms_account_withdraw_balance_available'] = 'Çekilebilecek miktar:';
+$_['ms_account_withdraw_minimum'] = 'Minimum ödenebilecek miktar:';
+
 $_['ms_account_balance_reserved_formatted'] = '-%s pending withdrawal';
 $_['ms_account_balance_waiting_formatted'] = '-%s waiting period';
 $_['ms_account_withdraw_description'] = 'Payout request via %s (%s) on %s';
-$_['ms_account_withdraw_amount'] = 'Amount:';
-$_['ms_account_withdraw_amount_note'] = 'Please specify the payout amount';
-$_['ms_account_withdraw_method'] = 'Payment method:';
-$_['ms_account_withdraw_method_note'] = 'Please select the payout method';
+
+$_['ms_account_withdraw_amount'] = 'Miktar:';
+$_['ms_account_withdraw_amount_note'] = 'Lütfen ödeme miktarını belirleyiniz';
+$_['ms_account_withdraw_method'] = 'Ödeme şekli:';
+$_['ms_account_withdraw_method_note'] = 'Lütfen ödeme şeklini belirleyiniz';
 $_['ms_account_withdraw_method_paypal'] = 'PayPal';
-$_['ms_account_withdraw_all'] = 'All earnings currently available';
-$_['ms_account_withdraw_minimum_not_reached'] = 'Your total balance is less than the minimum payout amount!';
-$_['ms_account_withdraw_no_funds'] = 'No funds to withdraw.';
-$_['ms_account_withdraw_no_paypal'] = 'Please <a href="index.php?route=seller/account-profile">specify your PayPal address</a> first!';
+$_['ms_account_withdraw_all'] = 'Tüm gelirler şu an kullanılabilir.';
+$_['ms_account_withdraw_minimum_not_reached'] = 'Bakiyeniz minimum ödeme miktarından daha az!';
+$_['ms_account_withdraw_no_funds'] = 'Çekim yapacak kaynak mevcut değil.';
+$_['ms_account_withdraw_no_paypal'] = 'Lütfen önce <a href="index.php?route=seller/account-profile">PayPal adresinizi belirtiniz</a> !';
 
 // Account - Stats
-$_['ms_account_stats_heading'] = 'Statistics';
-$_['ms_account_stats_breadcrumbs'] = 'Statistics';
-$_['ms_account_stats_tab_summary'] = 'Summary';
-$_['ms_account_stats_tab_by_product'] = 'By Product';
-$_['ms_account_stats_tab_by_year'] = 'By Year';
-$_['ms_account_stats_summary_comment'] = 'Below is a summary of your sales';
-$_['ms_account_stats_sales_data'] = 'Sales data';
-$_['ms_account_stats_number_of_orders'] = 'Number of orders';
-$_['ms_account_stats_total_revenue'] = 'Total revenue';
-$_['ms_account_stats_average_order'] = 'Average order';
-$_['ms_account_stats_statistics'] = 'Statistics';
-$_['ms_account_stats_grand_total'] = 'Grand total sales';
-$_['ms_account_stats_product'] = 'Product';
-$_['ms_account_stats_sold'] = 'Sold';
-$_['ms_account_stats_total'] = 'Total';
-$_['ms_account_stats_this_year'] = 'This Year';
+$_['ms_account_stats_heading'] = 'İstatistikler';
+$_['ms_account_stats_breadcrumbs'] = 'İstatistikler';
+$_['ms_account_stats_tab_summary'] = 'Özet';
+$_['ms_account_stats_tab_by_product'] = 'Ürüne göre';
+$_['ms_account_stats_tab_by_year'] = 'Yıla göre';
+$_['ms_account_stats_summary_comment'] = 'Aşağıda satışlarınızın bir özeti mevcut';
+$_['ms_account_stats_sales_data'] = 'Satış bilgileri';
+$_['ms_account_stats_number_of_orders'] = 'Sipariş sayısı';
+$_['ms_account_stats_total_revenue'] = 'Toplam Hasılat';
+$_['ms_account_stats_average_order'] = 'Ortalama sipariş';
+$_['ms_account_stats_statistics'] = 'İstatistikler';
+$_['ms_account_stats_grand_total'] = 'Satışlarin genel toplamı';
+$_['ms_account_stats_product'] = 'Ürün';
+$_['ms_account_stats_sold'] = 'Satılan';
+$_['ms_account_stats_total'] = 'Toplam';
+$_['ms_account_stats_this_year'] = 'Bu yıl';
+
 $_['ms_account_stats_year_comment'] = '<span id="sales_num">%s</span> Sale(s) for specified period';
-$_['ms_account_stats_show_orders'] = 'Show Orders From: ';
-$_['ms_account_stats_month'] = 'Month';
-$_['ms_account_stats_num_of_orders'] = 'Number of orders';
-$_['ms_account_stats_total_r'] = 'Total revenue';
-$_['ms_account_stats_average_order'] = 'Average order';
-$_['ms_account_stats_today'] = 'Today, ';
-$_['ms_account_stats_yesterday'] = 'Yesterday, ';
-$_['ms_account_stats_daily_average'] = 'Daily average for ';
+//2dum2translate
+
+$_['ms_account_stats_show_orders'] = 'Şu kişinin siparişlerini göster: ';
+$_['ms_account_stats_month'] = 'Ay';
+$_['ms_account_stats_num_of_orders'] = 'Sipariş sayısı';
+$_['ms_account_stats_total_r'] = 'Toplam Hasılat';
+$_['ms_account_stats_average_order'] = 'Ortalama sipariş';
+$_['ms_account_stats_today'] = 'Bugün, ';
+$_['ms_account_stats_yesterday'] = 'Dün, ';
+$_['ms_account_stats_daily_average'] = 'Şunun için günlük ortalama ';
 $_['ms_account_stats_date_month_format'] = 'F Y';
-$_['ms_account_stats_projected_totals'] = 'Projected totals for ';
-$_['ms_account_stats_grand_total_sales'] = 'Grand total sales';
+$_['ms_account_stats_projected_totals'] = 'Şunun için tahmin edilen toplam ';
+$_['ms_account_stats_grand_total_sales'] = 'Satışlarin genel toplamı';
 
 // Product page - Seller information
-$_['ms_catalog_product_sellerinfo'] = 'Seller information';
-$_['ms_catalog_product_contact'] = 'Contact this seller';
+$_['ms_catalog_product_sellerinfo'] = 'Satıcı bilgileri';
+$_['ms_catalog_product_contact'] = 'Bu satıcıyla iletişime geç';
 
-$_['ms_footer'] = '<br>MultiMerch Marketplace by <a href="http://multimerch.com/">multimerch.com</a>';
+
+$_['ms_footer'] = '<br>MultiMerch Pazarı: <a href="http://multimerch.com/">multimerch.com</a>';
+//$_['ms_footer'] = '<br>MultiMerch Marketplace by <a href="http://multimerch.com/">multimerch.com</a>';
+//I DONT EVEN KNOW          ^
 
 // Catalog - Sellers list
-$_['ms_catalog_sellers_heading'] = 'Sellers';
-$_['ms_catalog_sellers_country'] = 'Country:';
+$_['ms_catalog_sellers_heading'] = 'Satıcılar';
+$_['ms_catalog_sellers_country'] = 'Ülke:';
 $_['ms_catalog_sellers_website'] = 'Website:';
-$_['ms_catalog_sellers_company'] = 'Company:';
-$_['ms_catalog_sellers_totalsales'] = 'Sales:';
-$_['ms_catalog_sellers_totalproducts'] = 'Products:';
-$_['ms_sort_country_desc'] = 'Country (Z - A)';
-$_['ms_sort_country_asc'] = 'Country (A - Z)';
-$_['ms_sort_nickname_desc'] = 'Name (Z - A)';
-$_['ms_sort_nickname_asc'] = 'Name (A - Z)';
+$_['ms_catalog_sellers_company'] = 'Şirket:';
+$_['ms_catalog_sellers_totalsales'] = 'Satışlar:';
+$_['ms_catalog_sellers_totalproducts'] = 'Ürünler:';
+$_['ms_sort_country_desc'] = 'Ülke (Z - A)';
+$_['ms_sort_country_asc'] = 'Ülke (A - Z)';
+$_['ms_sort_nickname_desc'] = 'İsim (Z - A)';
+$_['ms_sort_nickname_asc'] = 'İsim (A - Z)';
 
 // Catalog - Seller profile page
-$_['ms_catalog_sellers'] = 'Sellers';
-$_['ms_catalog_sellers_empty'] = 'There are no sellers yet.';
-$_['ms_catalog_seller_profile'] = 'View profile';
-$_['ms_catalog_seller_profile_heading'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_breadcrumbs'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_about_seller'] = 'About the seller';
-$_['ms_catalog_seller_profile_products'] = 'Some of seller\'s products';
-$_['ms_catalog_seller_profile_tab_products'] = 'Products';
+$_['ms_catalog_sellers'] = 'Satıcılar';
+$_['ms_catalog_sellers_empty'] = 'Henüz hiçbir satıcı yok.';
+$_['ms_catalog_seller_profile'] = 'Profili görüntüle';
+$_['ms_catalog_seller_profile_heading'] = '%s kişisinin profili';
+$_['ms_catalog_seller_profile_breadcrumbs'] = '%s kişisinin profili';
+$_['ms_catalog_seller_profile_about_seller'] = 'Satıcı hakkında';
+$_['ms_catalog_seller_profile_products'] = 'Satıcının bazı ürünleri';
+$_['ms_catalog_seller_profile_tab_products'] = 'Ürünler';
 
-$_['ms_catalog_seller_profile_social'] = 'Social profiles';
-$_['ms_catalog_seller_profile_country'] = 'Country:';
+$_['ms_catalog_seller_profile_social'] = 'Sosyal profiller';
+$_['ms_catalog_seller_profile_country'] = 'Ülke:';
 $_['ms_catalog_seller_profile_zone'] = 'Region/State:';
-$_['ms_catalog_seller_profile_website'] = 'Website:';
-$_['ms_catalog_seller_profile_company'] = 'Company:';
-$_['ms_catalog_seller_profile_totalsales'] = 'Total sales:';
-$_['ms_catalog_seller_profile_totalproducts'] = 'Total products:';
-$_['ms_catalog_seller_profile_view_products'] = 'View products';
-$_['ms_catalog_seller_profile_view'] = 'View all %s\'s products';
+$_['ms_catalog_seller_profile_website'] = 'Websitesi:';
+$_['ms_catalog_seller_profile_company'] = 'Şirket:';
+$_['ms_catalog_seller_profile_totalsales'] = 'Bütün satışlar:';
+$_['ms_catalog_seller_profile_totalproducts'] = 'Bütün ürünler:';
+$_['ms_catalog_seller_profile_view_products'] = 'Ürünleri göster';
+$_['ms_catalog_seller_profile_view'] = '%s satıcısının tüm ürünlerini göster';
 
 // Catalog - Seller's products list
-$_['ms_catalog_seller_products_heading'] = '%s\'s products';
-$_['ms_catalog_seller_products_breadcrumbs'] = '%s\'s products';
-$_['ms_catalog_seller_products_empty'] = 'This seller doesn\'t have any products yet!';
+$_['ms_catalog_seller_products_heading'] = '%s satıcısının ürünleri';
+$_['ms_catalog_seller_products_breadcrumbs'] = '%s satıcısının ürünleri';
+$_['ms_catalog_seller_products_empty'] = 'Bu satıcıda henüz hiçbir ürün yok';
 
 // Catalog - Seller contact dialog
-$_['ms_sellercontact_title'] = 'Send a message to seller';
-$_['ms_sellercontact_signin'] = 'Please <a href="%s">sign in</a> to contact %s';
-$_['ms_sellercontact_sendto'] = 'Send a message to %s';
-$_['ms_sellercontact_text'] = 'Message: ';
+$_['ms_sellercontact_title'] = 'Satıcıya mesaj gönder';
+$_['ms_sellercontact_signin'] = 'Lütfen %s kişisine mesaj göndermek için <a href="%s">giriş yapınız</a>';
+$_['ms_sellercontact_sendto'] = '%s kişisine mesaj gönder';
+$_['ms_sellercontact_text'] = 'Mesaj: ';
 $_['ms_sellercontact_captcha'] = 'Captcha';
-$_['ms_sellercontact_sendmessage'] = 'Send a message to %s';
-$_['ms_sellercontact_close'] = 'Close';
-$_['ms_sellercontact_send'] = 'Send';
-$_['ms_sellercontact_success'] = 'Your message has been successfully sent';
+$_['ms_sellercontact_sendmessage'] = '%s kişisine mesaj gönder';
+$_['ms_sellercontact_close'] = 'Kapat';
+$_['ms_sellercontact_send'] = 'Gönder';
+$_['ms_sellercontact_success'] = 'Mesajınız başarılı bir şekilde gönderildi';
 
 ?>
