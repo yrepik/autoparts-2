@@ -876,3 +876,8 @@ admin/controller/catalog/product.php
 admin/language/english/catalog/product.php
 admin/language/turkish/catalog/product.php
 admin/view/template/catalog/product_list.tpl
+catalog/language/turkish/multiseller/multiseller.php
+admin/controller/multiseller/payment.php
+admin/view/template/multiseller/payment.tpl
+admin/controller/multiseller/transaction.php
+admin/view/template/multiseller/transaction.tpl
