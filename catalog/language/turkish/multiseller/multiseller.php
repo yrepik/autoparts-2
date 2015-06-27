@@ -692,7 +692,7 @@ $_['ms_catalog_seller_profile_tab_products'] = 'Ürünler';
 
 $_['ms_catalog_seller_profile_social'] = 'Sosyal profiller';
 $_['ms_catalog_seller_profile_country'] = 'Ülke:';
-$_['ms_catalog_seller_profile_zone'] = 'Region/State:';
+$_['ms_catalog_seller_profile_zone'] = 'Bölge/Şehir:';
 $_['ms_catalog_seller_profile_website'] = 'Websitesi:';
 $_['ms_catalog_seller_profile_company'] = 'Şirket:';
 $_['ms_catalog_seller_profile_totalsales'] = 'Bütün satışlar:';
