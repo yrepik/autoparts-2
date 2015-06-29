@@ -1,0 +1,30 @@
+2015-06-29 13:25:14 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: SuperMenu integration OCmod
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 88
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 119
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php foreach ($scripts as $script) { ?>
+LINE: 35
+CODE: <?php if ($categories) { ?>
+LINE: 89
+----------------------------------------------------------------

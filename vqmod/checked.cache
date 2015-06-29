@@ -985,3 +985,8 @@ catalog/language/turkish/account/success.php
 catalog/language/english/account/edit.php
 catalog/language/turkish/account/edit.php
 catalog/view/theme/default/template/account/edit.tpl
+admin/language/turkish/extension/installer.php
+system/modification/system/engine/action.php
+system/modification/system/engine/loader.php
+system/modification/system/library/config.php
+system/modification/system/library/language.php
