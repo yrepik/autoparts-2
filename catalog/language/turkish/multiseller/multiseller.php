@@ -707,7 +707,7 @@ $_['ms_catalog_seller_products_empty'] = 'Bu satıcıda henüz hiçbir ürün yo
 
 // Catalog - Seller contact dialog
 $_['ms_sellercontact_title'] = 'Satıcıya mesaj gönder';
-$_['ms_sellercontact_signin'] = 'Lütfen %s kişisine mesaj göndermek için <a href="%s">giriş yapınız</a>';
+$_['ms_sellercontact_signin'] = '-Lütfen mağaza yetkilisine <br> mesaj göndermek için <a href="%s">giriş yapınız</a>-';
 $_['ms_sellercontact_sendto'] = '%s kişisine mesaj gönder';
 $_['ms_sellercontact_text'] = 'Mesaj: ';
 $_['ms_sellercontact_captcha'] = 'Captcha';
