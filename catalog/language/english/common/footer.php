@@ -14,4 +14,4 @@ $_['text_account']      = 'My Account';
 $_['text_order']        = 'Order History';
 $_['text_wishlist']     = 'Wish List';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a> - Designed By <a href="http://mertyildiran.com/">mertyildiran.com</a> - %s &copy; %s';
+$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a> - Designed & Programmed By <a href="http://dragon.computer/">DRAGON.COMPUTER</a> - %s &copy; %s';

@@ -415,3 +415,8 @@ catalog/controller/product/manufacturer.php
 catalog/language/english/product/manufacturer.php
 catalog/language/turkish/product/manufacturer.php
 catalog/view/theme/default/template/product/manufacturer_info.tpl
+catalog/view/theme/default/template/multiseller/account-product.tpl
+catalog/controller/account/logout.php
+catalog/language/english/account/logout.php
+catalog/language/turkish/account/logout.php
+catalog/view/theme/default/template/common/success.tpl

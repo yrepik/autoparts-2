@@ -1,5 +1,5 @@
 <h3 style="color:#<?php echo $header_text_color; ?> !important;"><?php echo $header_text; ?></h3>
-<div style="margin-bottom:20px;">
+<div style="margin-bottom:10px;">
   <div class="text-left">
     <label for="make" style="color:#<?php echo $mmy_text_color; ?> !important;" class="control-label"><?php echo $make_text; ?></label>
     <select onchange="getModel(this);" id="make" name="make" class="form-control">

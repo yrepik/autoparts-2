@@ -14,9 +14,9 @@
 		{
 			$str = $str."<option value='$row[modelid]'>$row[modelname]</option>";
 		}
-		echo "<option value='-1'>Select Model</option>".$str;
+		echo "<option value='-1'>Model seçiniz</option>".$str;
 	}
 	else {
-		echo "<option value='-1'>Select Model</option>";
+		echo "<option value='-1'>Model seçiniz</option>";
 	}
 ?>

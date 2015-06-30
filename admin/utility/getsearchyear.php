@@ -14,9 +14,9 @@
 		{
 			$str = $str."<option value='$row[yearid]'>$row[yearname]</option>";
 		}
-		echo "<option value='-1'>Select Year</option>".$str;
+		echo "<option value='-1'>Üretim yılını seçiniz</option>".$str;
 	}
 	else {
-		echo "<option value='-1'>Select Year</option>";
+		echo "<option value='-1'>Üretim yılını seçiniz</option>";
 	}
 ?>
