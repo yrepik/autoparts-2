@@ -93,6 +93,11 @@ class ControllerCommonMenu extends Controller {
 		$data['text_weight_class'] = $this->language->get('text_weight_class');
 		$data['text_length_class'] = $this->language->get('text_length_class');
 		$data['text_zone'] = $this->language->get('text_zone');
+
+    					$data['text_car_make'] = "Add Make";
+						$data['text_car_model'] = "Add Model";
+						$data['text_car_year'] = "Add Year";
+                        
 		$data['text_recurring'] = $this->language->get('text_recurring');
 		$data['text_order_recurring'] = $this->language->get('text_order_recurring');
 		$data['text_openbay_extension'] = $this->language->get('text_openbay_extension');
@@ -179,6 +184,11 @@ class ControllerCommonMenu extends Controller {
 		$data['weight_class'] = $this->url->link('localisation/weight_class', 'token=' . $this->session->data['token'], 'SSL');
 		$data['length_class'] = $this->url->link('localisation/length_class', 'token=' . $this->session->data['token'], 'SSL');
 		$data['zone'] = $this->url->link('localisation/zone', 'token=' . $this->session->data['token'], 'SSL');
+
+    					$data['make'] = $this->url->link('make/make', 'token=' . $this->session->data['token'], 'SSL');
+						$data['model'] = $this->url->link('model/model', 'token=' . $this->session->data['token'], 'SSL');
+						$data['year'] = $this->url->link('year/year', 'token=' . $this->session->data['token'], 'SSL');
+                        
 		$data['recurring'] = $this->url->link('catalog/recurring', 'token=' . $this->session->data['token'], 'SSL');
 		$data['order_recurring'] = $this->url->link('sale/recurring', 'token=' . $this->session->data['token'], 'SSL');
 

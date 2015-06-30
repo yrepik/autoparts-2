@@ -1,0 +1,315 @@
+<modification>
+        <id>Car Filter VQMOD</id>
+        <version>1.0</version>
+        <vqmver>1.0.8</vqmver>
+        <author>BIGBOSS</author>
+		<file name="admin/view/template/catalog/product_form.tpl">
+			<operation>
+                        <search position="after"><![CDATA[
+           				<li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+						]]></search>
+                        <add><![CDATA[
+    					<li><a href="#tab-parts-filter-data" data-toggle="tab">Parts Filter Data</a></li>
+                        ]]></add>
+                </operation>
+			
+			<operation>
+			  <search position="before">
+				<![CDATA[
+					<?php echo $footer; ?> 
+				]]>
+			  </search>
+			  <add>
+				<![CDATA[
+				<script type="text/javascript">
+						var parts_rows = <?php echo $row_val; ?>;
+						function addPartsData() {
+							html  = '<tbody id="parts-row' + parts_rows + '">';
+							html += '  <tr>';
+							
+							html += '    <td class="left"><select class="form-control" id="make_' + parts_rows + '" name="partsfilter[' + parts_rows + '][make]" onchange="loadModelDatax(this,' + parts_rows + ');">';
+							html += '      <option value="">--Select Make--</option>';
+							<?php foreach($make_data as $make) { ?>
+							html += '      <option value="<?php echo $make['makeid']; ?>"><?php echo $make['makename']; ?></option>';
+							<?php }?>
+							html += '    </select></td>';
+							html += '    <td class="left"><select class="form-control" disabled="disabled" id="model_' + parts_rows + '" name="partsfilter[' + parts_rows + '][model]" onchange="loadYearData(this,' + parts_rows + ');">';
+							html += '      <option value="">--Select Model--</option>';
+							html += '    </select></td>';
+							html += '    <td class="left"><select class="form-control" id="year_' + parts_rows + '" disabled="disabled" name="partsfilter[' + parts_rows + '][year]">';
+							html += '      <option value="">--Select Year--</option>';
+							html += '    </select></td>';
+							html += '    <td class="left"><button class="btn btn-danger" title="Remove" data-toggle="tooltip" onclick="$(\'#parts-row' + parts_rows + '\').remove();" type="button"><i class="fa fa-minus-circle"></i></button></td>';
+							html += '  </tr>';	
+							html += '</tbody>';
+							
+							$('#partsdata tfoot').before(html);
+							
+							parts_rows++;
+						}
+						function loadModelDatax(obj,row){
+							if(obj.value != ''){
+								var post_url = "<?php echo HTTP_SERVER; ?>index.php?route=catalog/product/getAllModelHtmlByMakeId&token=<?php echo $token; ?>";
+								$.ajax({
+									type: "POST",
+									url: post_url,
+									data: 'makeid=' + obj.value,
+									success: function(response) {
+										if(response != '-99'){
+											$("#model_" + row).html(response);
+											$("#model_" + row).prop('disabled', false);
+										}
+										else{
+											alert('Wrong Request');
+											$("#model_" + row).prop('disabled', true);
+										}
+									},
+								});
+							}
+						}
+						function loadYearData(obj,row){
+							if(obj.value != ''){
+								var post_url = "<?php echo HTTP_SERVER; ?>index.php?route=catalog/product/getAllYearHtmlByModelId&token=<?php echo $token; ?>";
+								$.ajax({
+									type: "POST",
+									url: post_url,
+									data: 'modelid=' + obj.value + '&makeid=' + $("#make_" + row).val(),
+									success: function(response) {
+										if(response != '-99'){
+											$("#year_" + row).html(response);
+											$("#year_" + row).prop('disabled', false);
+										}
+										else{
+											alert('Wrong Request');
+											$("#year_" + row).prop('disabled', true);
+										}
+									},
+								});
+							}
+						}
+					</script>
+				]]>
+			  </add>
+			</operation>
+			<operation>
+			  <search position="before">
+				<![CDATA[<div class="tab-pane" id="tab-design">]]>
+			  </search>
+			  <add>
+				<![CDATA[
+					<div class="tab-pane" id="tab-parts-filter-data">
+						<table id="partsdata" class="table table-bordered table-hover">
+						  <thead>
+							<tr>
+							  <td class="left"><u><b>Make</b></u></td>
+							  <td class="left"><u><b>Model</b></u></td>
+							  <td class="left"><u><b>Year</b></u></td>
+							  <td></td>
+							</tr>
+						  </thead>
+						  <?php if($mega_html != '') { ?>
+						  	<?php echo $mega_html; ?>
+						  <?php } ?>
+						  <tfoot>
+							<tr>
+							  <td colspan="4"></td>
+							  <td class="left">
+							  <button class="btn btn-primary" title="" data-toggle="tooltip" onclick="addPartsData();" type="button" data-original-title="Add Car Parts Information"><i class="fa fa-plus-circle"></i></button>
+							  </td>
+							</tr>
+						  </tfoot>
+						</table>
+					</div>
+				]]></add>
+          	</operation>
+		</file>
+		<file name="admin/controller/common/menu.php">
+				<operation>
+                        <search position="after"><![CDATA[
+           				$data['text_zone'] = $this->language->get('text_zone');
+						]]></search>
+                        <add><![CDATA[
+    					$data['text_car_make'] = "Add Make";
+						$data['text_car_model'] = "Add Model";
+						$data['text_car_year'] = "Add Year";
+                        ]]></add>
+                </operation>
+				<operation>
+                        <search position="after"><![CDATA[
+           				$data['zone'] = $this->url->link('localisation/zone', 'token=' . $this->session->data['token'], 'SSL');
+						]]></search>
+                        <add><![CDATA[
+    					$data['make'] = $this->url->link('make/make', 'token=' . $this->session->data['token'], 'SSL');
+						$data['model'] = $this->url->link('model/model', 'token=' . $this->session->data['token'], 'SSL');
+						$data['year'] = $this->url->link('year/year', 'token=' . $this->session->data['token'], 'SSL');
+                        ]]></add>
+                </operation>
+        </file>
+		<file name="admin/view/template/common/menu.tpl">
+				<operation>
+                        <search position="after"><![CDATA[
+           				 <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+						]]></search>
+                        <add><![CDATA[
+    					<li><a href="<?php echo $make; ?>"><?php echo $text_car_make; ?></a></li>
+						<li><a href="<?php echo $model; ?>"><?php echo $text_car_model; ?></a></li>
+						<li><a href="<?php echo $year; ?>"><?php echo $text_car_year; ?></a></li>
+                        ]]></add>
+                </operation>
+        </file>
+		<file name="admin/controller/catalog/product.php">
+				<operation>
+                        <search position="before"><![CDATA[
+           				if (isset($this->request->post['upc'])) {
+						]]></search>
+                        <add><![CDATA[
+						$data['mega_html'] = '';
+						$data['row_val'] = 0;
+						if(isset($this->request->get['product_id']) && $this->request->get['product_id'] != ''){
+							$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "filterdata where product_id ='" . $this->request->get['product_id'] . "'");
+							if($query->num_rows){
+								$i = 0;
+								foreach($query->rows as $row){
+									$make_html = $this->getmakeHtml($row['make'],$i);
+									$model_html = $this->getmodelHtml($row['make'],$row['model'],$i);
+									$year_html = $this->getyearHtml($row['make'],$row['model'],$row['year'],$i);
+									
+									$data['mega_html'] .= "<tbody id='parts-row".$i."'><tr><td class='left'>".$make_html."</td><td class='left'>".$model_html."</td><td class='left'>".$year_html."</td><td class='left'><button class='btn btn-danger' title='Remove' data-toggle='tooltip' onclick=$('#parts-row".$i."').remove(); type='button'><i class='fa fa-minus-circle'></i></button> </td></tr></tbody>";
+									$i++;
+								}
+								$data['row_val'] = $i;
+							}
+						}
+							
+						$data['make_data'] = $this->getAllMake();
+                        ]]></add>
+                </operation>
+				<operation>
+                        <search position="before"><![CDATA[
+           				public function add() {
+						]]></search>
+                        <add><![CDATA[
+    					public function getAllMake(){
+							$make_data = array();
+							$make = $this->getAllMakeList();
+							foreach($make as $makes){
+								$make_data[] = array(
+									'makeid'	=>	$makes['makeid'],
+									'makename'	=>	$makes['makename']
+								);
+							}
+							return $make_data;
+						}
+						/*get Make*/
+						public function getAllMakeList(){
+							$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "make order by makename ASC");
+							return $query->rows;
+						}
+						public function getAllModelByMakeId($makeId){
+							$query = $this->db->query("select * from " . DB_PREFIX . "model where makeid='".$makeId."'");
+							return $query->rows;
+						}
+						public function getAllModelHtmlByMakeId(){
+							$model_html = "<option value=''>--Select Model--</option>";
+							if($this->request->post['makeid']){
+								$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "model where makeid = '" .(int)$this->request->post['makeid']. "' order by modelname ASC");
+								if($query->num_rows){
+									foreach($query->rows as $modeldata){
+										$model_html .= "<option value='$modeldata[modelid]'>" .  $modeldata['modelname']. "</option>";
+									}
+								}
+							}
+							echo $model_html;
+						}
+						public function getmakeHtml($makeid,$row){
+							$make_html = "<select class='form-control' id=make_" . $row . " onchange='loadModelDatax(this,".$row.");' name='partsfilter[".$row."][make]'><option value=''>--Select Make--</option>";
+							$sql = 'SELECT * FROM '.DB_PREFIX.'make ORDER BY makename ASC';
+							$q1 = $this->db->query($sql);
+							if ($q1->num_rows){
+								foreach($q1->rows as $row){
+									if($row['makeid'] == $makeid){
+										$make_html .= "<option selected='selected' value='".$row['makeid']."'>".$row['makename']."</option>";
+									}
+									else{
+										$make_html .= "<option value='".$row['makeid']."'>".$row['makename']."</option>";
+									}
+								}
+							}
+							return $make_html . "</select>";
+						}
+						public function getmodelHtml($makeid,$modelid,$row){
+							$model_html = "<select class='form-control' onchange='loadYearData(this,".$row.");' name='partsfilter[".$row."][model]' id='model_".$row."'><option value=''>--Select Model--</option>";
+							$sql = "select * from " .DB_PREFIX. "model where makeid = '" . (int)$makeid . "'";
+							$q1 = $this->db->query($sql);
+							if ($q1->num_rows){
+								foreach($q1->rows as $row){
+									if($row['modelid'] == $modelid){
+										$model_html .= "<option selected='selected' value='".$row['modelid']."'>".$row['modelname']."</option>";
+									}
+									else{
+										$model_html .= "<option value='".$row['modelid']."'>".$row['modelname']."</option>";
+									}	
+								}
+							}
+							return $model_html . "</select>";
+						}
+						public function getyearHtml($makeid,$modelid,$yearid,$row){
+							$year_html = "<select class='form-control' name='partsfilter[".$row."][year]' id='year_".$row."'><option value=''>--Select Year--</option>";
+							$sql = "select * from " .DB_PREFIX. "year where makeid = '" . (int)$makeid . "' and modelid = '" . (int)$modelid . "'";
+							$q1 = $this->db->query($sql);
+							if ($q1->num_rows){
+								foreach($q1->rows as $row){
+									if($row['yearid'] == $yearid){
+										$year_html .= "<option selected='selected' value='".$row['yearid']."'>".$row['yearname']."</option>";
+									}
+									else{
+										$year_html .= "<option value='".$row['yearid']."'>".$row['yearname']."</option>";
+									}	
+								}
+							}
+							return $year_html . "</select>";
+						}	
+										
+						public function getAllYearHtmlByModelId(){
+							$year_html = "<option value=''>--Select Year--</option>";
+							if($this->request->post['makeid'] && $this->request->post['modelid']){
+								$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "year where makeid = '" .(int)$this->request->post['makeid']. "' and modelid = '" .(int)$this->request->post['modelid']. "' order by yearname ASC");
+								if($query->num_rows){
+									foreach($query->rows as $yeardata){
+										$year_html .= "<option value='$yeardata[yearid]'>" .  $yeardata['yearname']. "</option>";
+									}
+								}
+							}
+							echo $year_html;
+						}	
+                        ]]></add>
+                </operation>
+        </file>
+		<file name="admin/model/catalog/product.php">
+				<operation>
+                        <search position="after"><![CDATA[
+           				$product_id = $this->db->getLastId();
+						]]></search>
+                        <add><![CDATA[
+						if(isset($data['partsfilter']) && $data['partsfilter'] != '' && $product_id > 0){
+							foreach($data['partsfilter'] as $partsdata){
+								$this->db->query("INSERT INTO " . DB_PREFIX . "filterdata SET product_id = '" . (int)$product_id . "',make = '" . (int)$partsdata['make'] . "',model = '" . (int)$partsdata['model'] . "',year = '" . (int)$partsdata['year'] . "'");
+							}
+						}
+                        ]]></add>
+                </operation>
+				<operation>
+                        <search position="after"><![CDATA[
+           				public function editProduct($product_id, $data) {
+						]]></search>
+                        <add><![CDATA[
+    					if(isset($data['partsfilter']) && $data['partsfilter'] != ''){
+							$this->db->query("DELETE FROM " . DB_PREFIX . "filterdata WHERE product_id = '" . (int)$product_id . "'");
+							foreach($data['partsfilter'] as $partsdata){
+								$this->db->query("INSERT INTO " . DB_PREFIX . "filterdata SET product_id = '" . (int)$product_id . "',make = '" . (int)$partsdata['make'] . "',model = '" . (int)$partsdata['model'] . "',year = '" . (int)$partsdata['year'] . "'");
+							}
+						}
+                        ]]></add>
+                </operation>
+        </file>
+</modification>

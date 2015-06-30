@@ -10,3 +10,9 @@
 2015-03-21 8:27:04 - PHP Notice:  Undefined variable: code in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 31
 2015-03-21 8:27:04 - PHP Notice:  Undefined variable: status in /home/admin/web/autoparts.mertyildiran.com/public_html/admin/view/template/module/google_hangouts.tpl on line 41
 2015-03-24 14:40:29 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />UPDATE oc_currency SET value = '1.00000', date_modified = '2015-03-24 14:40:29' WHERE code = 'TRY' in /home/admin/web/autoparts.mertyildiran.com/public_html/system/library/db/mysqli.php on line 40
+2015-06-30 12:53:12 - PHP Notice:  Undefined variable: make in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7
+2015-06-30 12:53:12 - PHP Warning:  Invalid argument supplied for foreach() in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7
+2015-06-30 12:53:54 - PHP Notice:  Undefined variable: make in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7
+2015-06-30 12:53:54 - PHP Warning:  Invalid argument supplied for foreach() in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7
+2015-06-30 12:54:07 - PHP Notice:  Undefined variable: make in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7
+2015-06-30 12:54:07 - PHP Warning:  Invalid argument supplied for foreach() in /home/admin/web/dekoto.com/public_html/catalog/view/theme/default/template/module/custom_search.tpl on line 7

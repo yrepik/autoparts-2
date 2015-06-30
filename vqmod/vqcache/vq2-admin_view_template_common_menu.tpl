@@ -17,6 +17,11 @@
       <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
       <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
       <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+
+    					<li><a href="<?php echo $make; ?>"><?php echo $text_car_make; ?></a></li>
+						<li><a href="<?php echo $model; ?>"><?php echo $text_car_model; ?></a></li>
+						<li><a href="<?php echo $year; ?>"><?php echo $text_car_year; ?></a></li>
+                        
     </ul>
   </li>
   <li id="extension"><a class="parent"><i class="fa fa-puzzle-piece fa-fw"></i> <span><?php echo $text_extension; ?></span></a>
