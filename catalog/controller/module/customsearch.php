@@ -21,8 +21,8 @@ class ControllerModulecustomsearch extends Controller {
 		$data['c_make'] = '';
 		$data['c_model'] = '';
 		$data['c_year'] = '';
-		$data['c_model_html'] = '<select onchange="getYearData(this);" id="model" name="model" class="form-control"><option value="-1">Select Model</option>';
-		$data['c_year_html'] = ' <select id="year" name="year" class="form-control"><option value="-1">Select Year</option>';
+		$data['c_model_html'] = '<select onchange="getYearData(this);" id="model" name="model" class="form-control"><option value="-1">Model seçiniz</option>';
+		$data['c_year_html'] = ' <select id="year" name="year" class="form-control"><option value="-1">Üretim yılını seçiniz</option>';
 		
 		/*get all information*/
 		/*model drop load*/

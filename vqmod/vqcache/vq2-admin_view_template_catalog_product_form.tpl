@@ -38,7 +38,7 @@
             <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li>
             <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
 
-    					<li><a href="#tab-parts-filter-data" data-toggle="tab">Parts Filter Data</a></li>
+    					<li><a href="#tab-parts-filter-data" data-toggle="tab">Marka-Model filtresi</a></li>
                         
           </ul>
           <div class="tab-content">
